@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html class="default">
+<head>
+{% include head.html %}
+</head>
+<body class="{% if page.bodyclass %}{{ page.bodyclass }}{% endif %}">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+{% js main %}
+</body>
+</html>

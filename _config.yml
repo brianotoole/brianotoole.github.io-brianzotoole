@@ -1,0 +1,48 @@
+---
+title: Brick and Monitor
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: brian@brickandmonitor.com
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+'
+baseurl:
+url: http://localhost:4000
+twitter_username: jekyllrb
+github_username: jekyll
+markdown: kramdown
+
+sass:
+  #style: compressed
+  #sass_dir: _assets/css/_sass
+  sass_dir: _assets
+
+gems:
+  - jekyll-assets
+  - jekyll-autoprefixer
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/css
+    - _assets/img
+    - _assets/js
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false
