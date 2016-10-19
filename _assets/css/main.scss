@@ -1,0 +1,15 @@
+// Main.scss
+// using Jekyll-assets as build tool
+// https://github.com/jekyll/jekyll-assets
+
+@import "_sass/variables";
+@import "_sass/base";
+@import "_sass/type";
+@import "_sass/syntax";
+@import "_sass/code";
+@import "_sass/layout";
+@import "_sass/sidebar";
+@import "_sass/masthead";
+@import "_sass/posts";
+@import "_sass/pagination";
+@import "_sass/message";
