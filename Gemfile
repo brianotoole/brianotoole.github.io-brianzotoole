@@ -1,7 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem "jekyll-assets"
-gem "jekyll-autoprefixer"
+gem 'jekyll'
 gem 'sass'
-gem 'uglifier'
+gem 'jekyll-autoprefixer'
+gem 'jekyll-paginate'
+#gem 'jekyll-assets'
+#gem 'uglifier'
