@@ -1,6 +1,5 @@
 // Nav.js
-// Slide out navigation
-// on click of #js-nav el
+// full screen nav
 $(document).ready(function() {
   var trigger = $('.i-menu a'),
     isClosed = false;
