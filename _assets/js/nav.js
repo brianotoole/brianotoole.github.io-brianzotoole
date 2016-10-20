@@ -2,8 +2,7 @@
 // Slide out navigation
 // on click of #js-nav el
 $(document).ready(function() {
-  var trigger = $('.hamburger'),
-    overlay = $('.overlay'),
+  var trigger = $('.i-menu a'),
     isClosed = false;
   trigger.click(function() {
     hamburger_cross();
@@ -11,18 +10,14 @@ $(document).ready(function() {
 
   function hamburger_cross() {
     if (isClosed == true) {
-      overlay.hide();
-      trigger.removeClass('is-open');
-      trigger.addClass('is-closed');
+      trigger.removeClass('active');
       isClosed = false;
     } else {
-      overlay.show();
-      trigger.removeClass('is-closed');
-      trigger.addClass('is-open');
+      trigger.addClass('active');
       isClosed = true;
     }
   }
-  $('[data-toggle="offcanvas"]').click(function() {
-    $('#js-nav').toggleClass('toggled');
+  $(trigger).click(function() {
+    $('.menu-wrapper').toggleClass('open');
   });
 });
