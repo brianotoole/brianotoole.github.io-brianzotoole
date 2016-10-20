@@ -28,7 +28,6 @@ version:             1.0.0
 # Gems
 gems:
   - jekyll-paginate
-  - jekyll-bootstrap-sass
   - jekyll-assets
   - autoprefixer-rails
  # - jekyll-gist
