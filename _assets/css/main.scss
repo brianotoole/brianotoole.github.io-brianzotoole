@@ -2,6 +2,10 @@
 // using Jekyll-assets as build tool
 // https://github.com/jekyll/jekyll-assets
 
+//vendors
+@import 'bootstrap';
+
+//site
 @import "_sass/variables";
 @import "_sass/base";
 @import "_sass/type";
