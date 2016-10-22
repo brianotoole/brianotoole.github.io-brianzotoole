@@ -1,55 +1,40 @@
-// Code
-//
-// Inline and block-level code snippets. Includes tweaks to syntax highlighted
-// snippets from Pygments/Rouge and Gist embeds.
+/**
+ * @section Code
+ * Styling for code and preformatted text.
+ */
 
-code,
-pre {
-  font-family: $code-font-family;
+ code,
+ kbd,
+ pre,
+ samp {
+ 	border-radius: calc-em(1px);
+	font-family: $font-monospace;
+	font-size: calc-em(14px);
 }
 
 code {
-  padding: .25em .5em;
-  font-size: 85%;
-  color: $code-color;
-  background-color: #f9f9f9;
-  border-radius: 3px;
+	background-color: lighten( $color-gray-light, 7% );
+	color: $color-code;
+	padding: calc-em(4px);
+	word-wrap: break-word;
 }
 
 pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+	background-color: lighten( $color-gray-light, 6% );
+	display: block;
+	line-height: 1.5;
+	margin-bottom: $spacing;
+	overflow: auto;
+	padding: calc-em(13px);
+	tab-size: 4;
+	white-space: pre-wrap;
+	word-break: break-all;
 
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
-
-// Pygments via Jekyll
-.highlight {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  background-color: #f9f9f9;
-  border-radius: .25rem;
-
-  pre {
-    margin-bottom: 0;
-    overflow-x: auto;
-  }
-
-  .lineno {
-    display: inline-block; // Ensures the null space also isn't selectable
-    padding-right: .75rem;
-    padding-left: .25rem;
-    color: #999;
-    // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-  }
+	code {
+		background-color: transparent;
+		border: 0;
+		color: inherit;
+		font-size: 1em;
+		padding: 0;
+	}
 }

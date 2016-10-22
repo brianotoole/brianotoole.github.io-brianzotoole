@@ -2,7 +2,7 @@
 .menu-wrapper {
   opacity: 0;
   visibility: hidden;
-  background: $gray-3;
+  background: $color-white;
   z-index: 8000;
   height: 100%;
   width: 100%;
@@ -92,8 +92,11 @@
   width: 25px;
   height: 27px;
   cursor: pointer;
-  color: $white;
+  color: $color-white;
   letter-spacing: .06em;
+  @media (max-width: $bp-medium) {
+    color: $color-black;
+  }
 }
 .i-menu a span {
   padding: 5px 5px 5px 35px;
@@ -105,8 +108,11 @@
   height: 4px;
   font: bold 12px/0.4 "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  background: $white;
+  background: $color-white;
   transition: all 0.2s ease-out;
+  @media (max-width: $bp-medium) {
+    background: $color-black;
+  }
 }
 @media (min-width: 768px) {
   .i-menu a i {
@@ -119,10 +125,13 @@
   content: '';
   width: 25px;
   height: 4px;
-  background: $white;
+  background: $color-white;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
+  @media (max-width: $bp-medium) {
+    background: $color-black;
+  }
 }
 .i-menu a i::before {
   top: -8px;

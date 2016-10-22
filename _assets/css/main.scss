@@ -1,19 +1,29 @@
 // Main.scss
-// using Jekyll-assets as build tool
-// https://github.com/jekyll/jekyll-assets
+// using Kraken (well, most of it) & relative sizings - https://cferdinandi.github.io/kraken/
+// using Jekyll-assets as build tool - https://github.com/jekyll/jekyll-assets/
 
-@import "_sass/variables";
-@import "_sass/base";
-@import "_sass/type";
-@import "_sass/syntax";
+// setup
+@import "_sass/config"; //variables
+@import "_sass/mixins"; 
+@import "_sass/normalize"; //get browsers on same page
+
+// base
+@import "_sass/typography";
+@import "_sass/grid";
 @import "_sass/code";
-@import "_sass/helpers";
+
+
+// layout
 @import "_sass/layout";
 @import "_sass/header";
 @import "_sass/nav";
 @import "_sass/home";
-@import "_sass/sidebar";
-@import "_sass/masthead";
 @import "_sass/posts";
 @import "_sass/pagination";
-@import "_sass/message";
+
+//components
+@import "_sass/buttons";
+@import "_sass/forms";
+@import "_sass/tables";
+@import "_sass/helpers";
+@import "_sass/print";
