@@ -1,11 +1,16 @@
 // Header
 .header {
   position: absolute;
-  height: 90px;
-  padding: 7px 0;
   width: 100%;
+  margin: 0;
+  padding: calc-em(60px) 0;
+  border-bottom: 2px solid $color-white;
   z-index: 200;
-  @media (max-width: $bp-medium) {
-	background: $color-white;
+}
+
+.logo {
+  float: left;
+  span {
+	color: $color-white;
   }
 }

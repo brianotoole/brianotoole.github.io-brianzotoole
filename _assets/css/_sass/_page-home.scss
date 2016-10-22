@@ -5,8 +5,9 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  min-height: 350px;
-  padding-top: 10em;
+  min-height: calc-em(350px);
+  margin: 0;
+  padding: 0;
   text-align: center;
   background: $color-primary;
   /*&:before {
@@ -16,13 +17,14 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: url('https://www.uxpin.com/images/homepage/webinars/agile-ux-masterclass/header-img.jpg');
+	background: url('#');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
   }*/
   .hero-text {
     position: relative;
+    padding-top: 50vh;
     z-index: 1;
   }
   .hero-title {
@@ -34,7 +36,5 @@
 .intro {}
 
 // Recent posts
-.recent-posts {
-
-}
+.recent-posts {}
 

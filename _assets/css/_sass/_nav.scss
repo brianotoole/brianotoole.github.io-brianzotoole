@@ -1,122 +1,35 @@
 // Nav
-.menu-wrapper {
-  opacity: 0;
-  visibility: hidden;
-  background: $color-white;
-  z-index: 8000;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  margin: 0;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 17px;
-  line-height: 1.4;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transform: scale(0.9);
-  transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
-}
-@media (min-width: 768px) {
-  .menu-wrapper {
-    font-size: 37px;
-  }
-}
-.menu-wrapper p {
-  font-size: 13px;
-  letter-spacing: 0;
-  text-transform: none;
-  font-weight: normal!important;
-  color: #697377;
-  font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-@media (min-width: 768px) {
-  .menu-wrapper p {
-    font-size: 18px;
-  }
-}
-.menu-wrapper ul {
-  top: 50%;
-  position: relative;
-  transform: translateY(-50%);
-  list-style: none;
-  text-align: center;
-  padding: 0 15px;
-}
-@media (480px) {
-  .menu-wrapper ul {
-    top: 55%;
-  }
-}
-.menu-wrapper.open {
-  visibility: visible;
-  opacity: 1;
-  transform: scale(1);
-  transition: transform 0.4s, opacity 0.4s;
-}
-.menu-list {
-  margin: 0;
-}
-.menu-list li {
-  transition: all 0.2s;
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-}
-.menu-list li a {
-  display: block;
-  width: 100%;
-  padding-bottom: 20px;
-}
-@media (min-width: 768px) {
-  .menu-list li a {
-    padding: 20px;
-  }
-}
-.menu-list:hover > li {
-  opacity: 0.5;
-}
-.menu-list:hover > li:hover {
-  opacity: 1;
-}
-
 // The menu toggle icon (hamburger icon)
 .i-menu {
+  position: relative;
+  float: right;
   z-index: 8001;
-  position: absolute;
-  top: 30px;
-  right: 150px;
 }
 .i-menu a {
   display: inline-block;
-  width: 25px;
-  height: 27px;
+  width: calc-em(25px);
+  height: calc-em(27px);
   cursor: pointer;
   color: $color-white;
-  letter-spacing: .06em;
+  letter-spacing: 0.06em;
   @media (max-width: $bp-medium) {
     color: $color-black;
   }
 }
-.i-menu a span {
-  padding: 5px 5px 5px 35px;
-}
+/*.i-menu a span {
+  display: inline-block;
+  position: absolute;
+  margin: calc-em(-10px) calc-em(35px);
+}*/
 .i-menu a i {
   position: relative;
   display: inline-block;
   width: 25px;
-  height: 4px;
-  font: bold 12px/0.4 "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  height: 3px;
   background: $color-white;
   transition: all 0.2s ease-out;
   @media (max-width: $bp-medium) {
     background: $color-black;
-  }
-}
-@media (min-width: 768px) {
-  .i-menu a i {
-    font: bold 14px/0.4 "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 
@@ -124,7 +37,7 @@
 .i-menu a i::after {
   content: '';
   width: 25px;
-  height: 4px;
+  height: 3px;
   background: $color-white;
   position: absolute;
   left: 0;
@@ -155,4 +68,78 @@
 .i-menu a.active i::after {
   bottom: 0;
   transform: rotateZ(-45deg);
+}
+
+// the wrapper & it's items
+.menu-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  background: $color-accent;
+  z-index: 8000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  margin: 0;
+  font-size: calc-em(18px);
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transform: scale(0.9);
+  transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+}
+@media (min-width: 768px) {
+  .menu-wrapper {
+    font-size: calc-em(32px);
+  }
+}
+.menu-wrapper p {
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: normal!important;
+  color: $color-black;
+}
+.menu-wrapper ul {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  list-style: none;
+  text-align: center;
+  padding: 0 calc-em(15px);
+}
+@media (480px) {
+  .menu-wrapper ul {
+    top: 55%;
+  }
+}
+.menu-wrapper.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.4s, opacity 0.4s;
+}
+.menu-list {
+  margin: 0;
+}
+.menu-list li {
+  transition: all 0.2s;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.menu-list li a {
+  display: block;
+  width: 100%;
+  padding-bottom: calc-em(20px);
+}
+@media (min-width: 768px) {
+  .menu-list li a {
+    padding: calc-em(20px);
+  }
+}
+.menu-list:hover > li {
+  opacity: 0.5;
+}
+.menu-list:hover > li:hover {
+  opacity: 1;
 }
