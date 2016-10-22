@@ -6,10 +6,14 @@
 // line height: 1.5em on small screens, 1.5625em on big screens
 
 // Colors
-$color-primary: #5cc1af;
-$color-accent: #ebcf9f;
+$color-primary: #0D5ACC; // Royal Blue
+$color-accent: #5BC7E8; // Sky Blue
 $color-black: #272727;
 $color-white: #ffffff;
+
+// Darkens
+$color-primary-dark: darken($color-primary, 7%);
+$color-accent-dark: darken($color-accent, 7%);
 
 $color-info: #0088cc; // Blue
 $color-success: #377f31; // Green

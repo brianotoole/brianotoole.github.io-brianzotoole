@@ -12,9 +12,6 @@
   cursor: pointer;
   color: $color-white;
   letter-spacing: 0.06em;
-  @media (max-width: $bp-medium) {
-    color: $color-black;
-  }
 }
 /*.i-menu a span {
   display: inline-block;
@@ -28,9 +25,6 @@
   height: 3px;
   background: $color-white;
   transition: all 0.2s ease-out;
-  @media (max-width: $bp-medium) {
-    background: $color-black;
-  }
 }
 
 .i-menu a i::before,
@@ -42,9 +36,6 @@
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
-  @media (max-width: $bp-medium) {
-    background: $color-black;
-  }
 }
 .i-menu a i::before {
   top: -8px;
@@ -74,7 +65,7 @@
 .menu-wrapper {
   opacity: 0;
   visibility: hidden;
-  background: $color-accent;
+  background: $color-primary-dark;
   z-index: 8000;
   height: 100%;
   width: 100%;
@@ -97,8 +88,7 @@
 .menu-wrapper p {
   letter-spacing: 0;
   text-transform: none;
-  font-weight: normal!important;
-  color: $color-black;
+  color: $color-white;
 }
 .menu-wrapper ul {
   top: 50%;
@@ -131,6 +121,7 @@
   display: block;
   width: 100%;
   padding-bottom: calc-em(20px);
+  color: $color-white;
 }
 @media (min-width: 768px) {
   .menu-list li a {

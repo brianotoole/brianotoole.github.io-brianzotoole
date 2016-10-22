@@ -26,8 +26,17 @@
  * Text colors
  */
 
+.text-primary {
+  color: $color-primary;
+}
+.text-accent {
+  color: $color-accent;
+}
+.text-white {
+  color: $color-white;
+}
 .text-muted {
-	color: $color-gray-dark;
+  color: $color-gray-dark;
 }
 
 
@@ -218,6 +227,3 @@
   margin: 0 auto;
   text-align: center;
 }
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }

@@ -8,7 +8,6 @@
   min-height: calc-em(350px);
   margin: 0;
   padding: 0;
-  text-align: center;
   background: $color-primary;
   /*&:before {
 	content: '';
@@ -24,7 +23,7 @@
   }*/
   .hero-text {
     position: relative;
-    padding-top: 50vh;
+    padding-top: 45vh;
     z-index: 1;
   }
   .hero-title {

@@ -19,34 +19,46 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $font-secondary; 
 	font-weight: normal;
 	line-height: 1.2;
-	margin: 0 0 1em;
-	padding: 1em 0 0;
+	//margin: 0 0 1em;
+	//padding: 1em 0 0;
 	word-wrap: break-word;
 }
 
 h1,
 .h1 {
-	font-size: calc-em(48px);
+	font-size: calc-em(32px);
 	padding-top: 0.5em;
 	@media (min-width: $bp-medium) {
-		font-size: calc-em(32px);
+		font-size: calc-em(46px);
 	}
 }
 h2,
 .h2 {
-	font-size: calc-em(38px);
+	font-size: calc-em(28px);
+	@media (min-width: $bp-medium) {
+		font-size: calc-em(38px);
+	}
 }
 h3,
 .h3 {
-	font-size: calc-em(28px);
+	font-size: calc-em(24px);
+	@media (min-width: $bp-medium) {
+		font-size: calc-em(32px);
+	}
 }
 h4,
 .h4 {
 	font-size: calc-em(22px);
+	@media (min-width: $bp-medium) {
+		font-size: calc-em(26px);
+	}
 }
 h5,
 .h5 {
 	font-size: calc-em(18px);
+	@media (min-width: $bp-medium) {
+		font-size: calc-em(20px);
+	}
 }
 h6,
 .h6 {
@@ -201,6 +213,7 @@ blockquote {
 	margin: 0 0 $spacing;
 	padding-left: calc-em(16px, 19px);
 	padding-right: calc-em(16px, 19px);
+	border-left: 2px solid $color-primary;
 
 	cite {
 		color: $color-gray-dark;
