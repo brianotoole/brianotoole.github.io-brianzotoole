@@ -13,11 +13,12 @@
   color: $color-white;
   letter-spacing: 0.06em;
 }
-/*.i-menu a span {
+.i-menu a span {
   display: inline-block;
   position: absolute;
-  margin: calc-em(-10px) calc-em(35px);
-}*/
+  left: calc-em(-55px);
+  top: calc-em(-11px);
+}
 .i-menu a i {
   position: relative;
   display: inline-block;
