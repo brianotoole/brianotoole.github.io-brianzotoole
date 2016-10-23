@@ -1,18 +1,33 @@
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+{% for post in site.posts %}
+<div class="row">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+  <!-- Date -->
+  <div class="grid-one-third">
+     <div class="post-date">
+       {{ post.date | date_to_string }}
+       {{ post.category }}
+     </div><!--/.post-date-->
+  </div><!--/.grid-->
+  
+  <!-- Feat. img -->
+  <div class="grid-one-third">
+	<img width="170" height="170" alt="Marcin Treder" src="https://www.uxpin.com/images/homepage/webinars/photo-marcin-treder.jpg">
   </div>
-  {% endfor %}
-</div>
+  
+   <!-- Post meta -->
+  <div class="grid-two-thirds">
+	<h1 class="post-title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h1>
+  </div>
+  
+</div><!--/.row-->
+{% endfor %}
+</div><!--/.posts-->
 
+
+<!-- Pagination -->
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
