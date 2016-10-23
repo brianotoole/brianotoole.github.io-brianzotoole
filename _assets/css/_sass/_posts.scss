@@ -3,26 +3,49 @@
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: calc-em(40px);
 }
 
-/* Blog post or page title */
-.page-title,
-.post-title,
-.post-title a {
-  color: #303030;
+.post-item {
+  margin-bottom: calc-em(20px);
+  padding: calc-em(20px) 0 calc-em(10px);
+  background: $color-gray-light;
+  transition: all 0.2s ease-out;
+  &:hover {
+    background: darken($color-gray-light, 7%);
+  }
+}
+/* Meta data line below post title */
+.post-meta {
+  display: block;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+.post-time {
+  display: block;
+  color: $color-body;
+}
+.post-cat {
+  display: block;
+  width: 100%;
+  color: $color-gray;
+  padding-bottom: calc-em(25px);
+  border-bottom: 10px solid $color-primary;
+  @media (min-width: $bp-medium) {
+	width: 105%;//expand border into post-image
+  }
+  &:nth-child(1) {border-color: $color-accent;}
+  &:nth-child(2) {border-color: $color-primary;}
+}
+.post-image {
+  border-radius: 50%;
 }
 .page-title,
 .post-title {
   margin-top: 0;
-}
-
-/* Meta data line below post title */
-.post-date {
-  display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  a {
+	//color: $color-info;
+  }
 }
 
 /* Related posts */

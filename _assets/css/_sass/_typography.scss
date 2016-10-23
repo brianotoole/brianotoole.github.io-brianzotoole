@@ -5,7 +5,7 @@
 
 body {
 	background: $color-white;
-	color: $color-black;
+	color: $color-body;
 	font-family: $font-primary; 
 	font-size: $font-size; //use relative sizings for everything; body = 100% or 16px
 	line-height: 1.5;
@@ -64,11 +64,10 @@ h6,
 .h6 {
 	text-transform: uppercase;
 }
-
 p {
+    font-size: calc-em(18px);
 	margin: 0 0 $spacing;
 }
-
 a {
 	background-color: transparent;
 	color: $color-primary;
