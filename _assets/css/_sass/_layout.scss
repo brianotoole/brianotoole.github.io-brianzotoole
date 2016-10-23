@@ -1,9 +1,10 @@
 // Layout
 // Styles for managing the structural hierarchy of the site.
 
-.wrap {
+.content-wrap {
   position: relative;
   width: 100%;
+  padding-top: calc-em(200px);
 }
 
 .content {

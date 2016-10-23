@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   {% include head.html %}
-  <body>
-  <div class="wrap">
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
-  </div><!--/.wrap-->
+  <body class="{% if page.bodyclass %}{{ page.bodyclass }}{% endif %}">
+  {% include header.html %}
+  <div class="content-wrap">
+  {{ content }}
+  {% include footer.html %}
+  </div><!--/.content-wrap-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   {% js main %}
