@@ -8,6 +8,7 @@ body {
 	color: $color-body;
 	font-family: $font-primary; 
 	font-size: $font-size; //use relative sizings for everything; body = 100% or 16px
+	font-weight: 300;
 	line-height: 1.5;
 
 	@media (min-width: $bp-medium) {
@@ -65,7 +66,7 @@ h6,
 	font-size: calc-em(16px);
 }
 p {
-    font-size: calc-em(18px);
+    font-size: calc-em(16px);
 	margin: 0 0 $spacing;
 }
 a {

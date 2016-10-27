@@ -8,6 +8,7 @@
 html,
 body {
   font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   overflow-x: hidden; //prevent scroll on mobile
 }
 

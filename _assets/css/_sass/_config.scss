@@ -7,7 +7,7 @@
 
 // Colors
 $color-body: #0c0c0c; // Body default
-$color-primary: #0b5df8; // Dodger Blue
+$color-primary: #0000ff; // Blue
 $color-accent: #5BC7E8; // Sky Blue
 
 $color-black: #272727;
@@ -30,9 +30,9 @@ $color-code: #dd1144;
 
 
 // Font Stacks
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400,700');
-$font-primary: "Roboto", sans-serif, Arial;
-$font-secondary: "Roboto Slab", sans-serif, Helvetica;
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700');
+$font-primary: "Open Sans", sans-serif, Helvetica;
+$font-secondary: "Montserrat", sans-serif, Arial;
 $font-nav: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-monospace: Menlo, Monaco, "Courier New", monospace;
 
