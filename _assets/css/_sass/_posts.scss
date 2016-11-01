@@ -7,19 +7,15 @@
 }
 
 .post-item {
-  margin-bottom: calc-em(20px);
-  padding: calc-em(20px) 0 calc-em(10px);
-  background: $color-gray-light;
-  transition: all 0.2s ease-out;
-  &:hover {
-    background: darken($color-gray-light, 7%);
-  }
+  padding: calc-em(30px) 0 calc-em(20px);
+  border-bottom: 2px solid $border-light;
+  &:last-child {border-bottom: none;}
 }
+
 /* Meta data line below post title */
 .post-meta {
   display: block;
   margin-bottom: 1rem;
-  color: #9a9a9a;
 }
 .post-time {
   display: block;
@@ -30,12 +26,10 @@
   width: 100%;
   color: $color-gray;
   padding-bottom: calc-em(25px);
-  border-bottom: 10px solid $color-primary;
+  border-bottom: 10px solid $color-accent;
   @media (min-width: $bp-medium) {
 	width: 105%;//expand border into post-image
   }
-  &:nth-child(1) {border-color: $color-accent;}
-  &:nth-child(2) {border-color: $color-primary;}
 }
 .post-image {
   border-radius: 50%;
@@ -44,7 +38,7 @@
 .post-title {
   margin-top: 0;
   a {
-	//color: $color-info;
+	color: $color-black;
   }
 }
 

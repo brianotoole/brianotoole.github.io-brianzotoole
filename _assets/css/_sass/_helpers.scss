@@ -38,6 +38,18 @@
 .text-muted {
   color: $color-gray-dark;
 }
+.bg-primary {
+  background: $color-primary;
+}
+.bg-accent {
+  background: $color-accent;
+}
+.bg-white {
+  background: $color-white;
+}
+.bg-gray {
+  background: $color-gray-light;
+}
 
 
 /**
@@ -152,16 +164,14 @@
 .pad-right-0 {
   @media (min-width: $bp-medium) { padding-right: 0; }
 }
+.pad-0 {
+  @media (min-width: $bp-medium) { padding: 0; }
+}
 
 /**
  * Visibility
  */
 
-/**
- * Visually hide an element, but leave it available for screen readers
- * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
- * @link http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
 .screen-reader {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -173,11 +183,6 @@
 	width: 1px;
 }
 
-/**
- * Extends the .screen-reader class to allow the element to be focusable when navigated to via the keyboard
- * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
- * @link https://www.drupal.org/node/897638
- */
 .screen-reader-focusable:active,
 .screen-reader-focusable:focus {
 	clip: auto;
@@ -188,22 +193,10 @@
 	width: auto;
 }
 
-/**
- * @workaround
- * @affected IE 8/9/10
- * @link http://juicystudio.com/article/screen-readers-display-none.php
- */
 [hidden] {
 	display: none;
 	visibility: hidden;
 }
-
-
-/**
- * Contain floats
- * The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document.
- * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
- */
 
 .clearfix:before,
 .clearfix:after {
@@ -217,16 +210,19 @@
 
 // Pads & layouts
 .pad {
-  padding: 2rem 0;
+  padding: calc-em(20px) 0;
+  @media (min-width: $bp-medium) {
+    padding: calc-em(80px) 0;
+  }
   &.xl {
-	padding: 4rem 0;
+	padding: calc-em(100px) 0;
   }
 }
 .pad-top {
-  padding: 2rem 0 0;
+  padding: calc-em(80px) 0 0;
 }
 .pad-bottom {
-  padding: 0 0 2rem;
+  padding: 0 0 calc-em(80px);
 }
 .position-center {
   margin: 0 auto;

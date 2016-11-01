@@ -32,14 +32,45 @@
     z-index: 1;
   }
   .hero-title {
-	color: $color-white;
 	margin-bottom: 0;
+  }
+  .hero-tagline {
+	padding-top: calc-em(30px);
+  }
+  .hero-title,
+  .hero-tagline { 
+    color: $color-black;
   }
 }
 
 // Intro 
 .intro {}
 
+// Recent projects
+.projects {}
+
+.split {}
+.split-wrap {
+  padding: calc-em(60px) calc-em(30px);
+  max-width: calc-em(375px);
+}
+.project-img {
+  background-size: cover;
+  background-position: center center;
+  height: calc-em(375px);
+  &.one {
+    background-position: 30% center;
+    background-image: url('http://flnet.sachsdigital.com/wp-content/themes/spike/img/pexels-photo-2.jpg');
+  }
+  &.two {
+	background-position: 70% center;
+	background-image: url('http://flnet.sachsdigital.com/wp-content/themes/spike/img/pexels-photo-42389.jpeg');
+  }
+}
+
 // Recent posts
 .recent-posts {}
+
+// Contact
+.contact {}
 

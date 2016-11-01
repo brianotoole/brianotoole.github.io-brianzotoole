@@ -3,6 +3,7 @@
 .i-menu {
   position: relative;
   float: right;
+  font-family: $font-secondary;
   z-index: 8001;
 }
 .i-menu a {
@@ -10,7 +11,7 @@
   width: calc-em(25px);
   height: calc-em(27px);
   cursor: pointer;
-  color: $color-white;
+  color: $color-black;
   letter-spacing: 0.06em;
 }
 .i-menu a span {
@@ -24,7 +25,7 @@
   display: inline-block;
   width: 25px;
   height: 3px;
-  background: $color-white;
+  background: $color-black;
   transition: all 0.2s ease-out;
 }
 
@@ -33,7 +34,7 @@
   content: '';
   width: 25px;
   height: 3px;
-  background: $color-white;
+  background: $color-black;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
@@ -66,7 +67,7 @@
 .menu-wrapper {
   opacity: 0;
   visibility: hidden;
-  background: $color-primary-dark;
+  background: $color-accent-dark;
   z-index: 8000;
   height: 100%;
   width: 100%;
@@ -122,7 +123,10 @@
   display: block;
   width: 100%;
   padding-bottom: calc-em(20px);
-  color: $color-white;
+  color: $color-black;
+}
+.menu-list li p {
+  color: $color-black;
 }
 @media (min-width: 768px) {
   .menu-list li a {

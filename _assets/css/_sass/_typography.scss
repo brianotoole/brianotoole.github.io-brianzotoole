@@ -8,7 +8,7 @@ body {
 	color: $color-body;
 	font-family: $font-primary; 
 	font-size: $font-size; //use relative sizings for everything; body = 100% or 16px
-	font-weight: 300;
+	font-weight: normal;
 	line-height: 1.5;
 
 	@media (min-width: $bp-medium) {
@@ -16,9 +16,9 @@ body {
 	}
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
 	font-family: $font-secondary; 
-	font-weight: normal;
+	font-weight: 900;
 	line-height: 1.2;
 	//margin: 0 0 1em;
 	//padding: 1em 0 0;
@@ -30,7 +30,7 @@ h1,
 	font-size: calc-em(32px);
 	padding-top: 0.5em;
 	@media (min-width: $bp-medium) {
-		font-size: calc-em(46px);
+		font-size: calc-em(60px);
 	}
 }
 h2,
@@ -68,6 +68,9 @@ h6,
 p {
     font-size: calc-em(16px);
 	margin: 0 0 $spacing;
+	@media (min-width: $bp-medium) {
+		font-size: calc-em(18px);
+	}
 }
 a {
 	background-color: transparent;
@@ -232,4 +235,10 @@ blockquote:after,
 q:before,
 q:after {
 	content: '';
+}
+
+// Page titles
+.section-title {
+  padding-bottom: calc-em(10px);
+  border-bottom: 2px solid $color-black;
 }

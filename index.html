@@ -9,37 +9,60 @@ bodyclass: home
     <h1 class="hero-title">Simplicity &amp; clarity. Great design has both.</h1>
   </div><!--/.container-->
   <div class="container sm">
-    <h5 class="hero-tagline">My name is Brian O'Toole and I am a director of web development living in Tampa, Florida. I help brands build recognition using the latest in web development and creative strategy. I believe good design should provide a low-bandwidth, meaningful user experience.</h5>
+    <p class="hero-tagline">My name is Brian O'Toole and I am a director of web development living in Tampa, Florida. I help brands build recognition using the latest in web development and creative strategy.</p>
   </div><!--/.container.sm-->
 </section><!--/.hero-->
 
-<section class="intro">
+<section class="projects pad bg-gray">
   <div class="container">
-    <div class="pad xl">
-      <h3 class="title text-primary">I help businesses and startups capture brand recognition using modern technology and design.</h3>
-      <!--<h5>I have 10+ years of experience working with creative services and currently work at a full-service ad agency in Florida. I've worked alongside talented teams of designers, developers, and entrepreneurs, which has helped me develop a deep understanding about the intuitions of brand marketing.</h4>
-      <h6>I sincerely enjoy the work I do and my clients garner the benefits. I am located in Tampa, Florida and love working with clients all over the USA. Outside of work, I like to explore new things and keep up with sports... particularly the NFL. <a href="http://bigcatcountry.com" target="_blank">Go Jags!</a></h6>-->
-    </div><!--/.pad-->
-    <div class="row">
-      <div class="grid-third">
-       <strong>Web Design</strong>
-       <p>The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is... The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is...</p>
+    
+    <div class="row split bg-white">
+      <div class="grid-half pad-0">
+        <div class="project-img one"></div>
       </div><!--/.grid-->
-      <div class="grid-third">
-       <strong>Web Design</strong>
-       <p>The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is...f</p>
-      </div><!--/.grid-->
-      <div class="grid-third">
-       <strong>Web Design</strong>
-       <p>The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is...</p>
+      <div class="grid-half">
+        <div class="split-wrap">
+          <h3 class="project-title">Project Title</h3>
+          <p class="project-meta">project description here</p>
+          <a class="btn primary">button name</a>
+        </div><!--/.split-wrap-->
       </div><!--/.grid-->
     </div><!--/.row-->
+    
+    <div class="row split bg-white">    
+      <div class="grid-half">
+        <div class="split-wrap">
+          <h3 class="project-title">Project Title</h3>
+          <p class="project-meta">project description here</p>
+          <a class="btn primary">button name</a>
+        </div><!--/.split-wrap-->
+      </div><!--/.grid-->
+      <div class="grid-half pad-0">
+        <div class="project-img two"></div>
+      </div><!--/.grid-->
+    </div><!--/.row-->
+    
   </div><!--/.container-->
 </section><!--/.intro-->
 
-<section class="recent-posts">
+<section class="recent-posts pad bg-accent">
   <div class="container">
-  <!--<h2 class="section-title text-primary">[Recent news.]</h2>-->
+  <h2 class="section-title">Recent news</h2>
   {% include posts-list.html %}
+  </div><!--/.container-->
+</section><!--/.recent-posts-->
+
+<section class="contact pad bg-white">
+  <div class="container">
+  <h2 class="section-title">Let's talk</h2>
+  
+  <div class="row">
+    <div class="grid-fourth">
+      <p>We are always here to answer your questions. Please feel free to fill out the form or call us at fdsafdsf</p>
+    </div><!--/.grid-->
+    <div class="grid-three-fourths">
+      {% include form.html %}
+    </div><!--/.grid-->
+  </div><!--/.row-->
   </div><!--/.container-->
 </section><!--/.recent-posts-->

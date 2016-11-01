@@ -5,15 +5,15 @@
 // Use actual font sizes, converted to ems; Usage - font-size: calc-em(10px);
 // line height: 1.5em on small screens, 1.5625em on big screens
 
-// Colors
-$color-body: #0c0c0c; // Body default
-$color-primary: #0000ff; // Blue
-$color-accent: #5BC7E8; // Sky Blue
+// Colors, pallete generated at: https://coolors.co/9d8d87-873d48-502b34-e3d3e4-00ba96
+$color-body: #0c0c0c;
+$color-primary: #cdebdb; // gainesboro
+$color-accent:  #fff8e8; // gold
 
 $color-black: #272727;
 $color-white: #ffffff;
 $color-gray: #9a9a9a;
-$color-gray-light: #f5f5f5;
+$color-gray-light: #f8f8f8;
 $color-gray-dark: #808080;
 
 // Darkens
@@ -21,6 +21,7 @@ $color-primary-dark: darken($color-primary, 7%);
 $color-accent-dark: darken($color-accent, 7%);
 
 // Components
+$border-light: rgba($color-gray, 0.25);
 $color-info: #0088cc; // Blue
 $color-success: #377f31; // Green
 $color-danger: #880e14; // Red
@@ -30,11 +31,10 @@ $color-code: #dd1144;
 
 
 // Font Stacks
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700');
-$font-primary: "Open Sans", sans-serif, Helvetica;
-$font-secondary: "Montserrat", sans-serif, Arial;
-$font-nav: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-monospace: Menlo, Monaco, "Courier New", monospace;
+//@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700');
+$font-primary: "ff-meta-serif-web-pro", serif; //body
+$font-secondary: "brandon-grotesque", sans-serif; //headings
+$font-monospace: Menlo, Monaco, monospace;
 
 // Breakpoints
 $bp-xsmall: 20em; //converted to pixels = #em x 16(default body font-size) or, 20x16=320px
