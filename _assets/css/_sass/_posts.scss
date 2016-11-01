@@ -26,7 +26,7 @@
   width: 100%;
   color: $color-gray;
   padding-bottom: calc-em(25px);
-  border-bottom: 10px solid $color-accent;
+  border-bottom: 10px solid $color-primary;
   @media (min-width: $bp-medium) {
 	width: 105%;//expand border into post-image
   }
