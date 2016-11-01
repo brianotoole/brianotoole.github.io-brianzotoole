@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Brian Z. OToole
 tagline:             #
-url:                 127.0.0.1:4000
+url:                 http://127.0.0.1:4000
 paginate:            1
 baseurl:             ""
 
