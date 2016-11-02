@@ -29,7 +29,15 @@ function validateRegister() {
 	return false;
 	}
 	else {
-	  $('#js-form-message').addClass('text-success text-large').text('Thank you. Your message has been sent successfully. I\'ll be in touch.');
+	  var datastring = $("#js-form").serialize();
+	  $.ajax({
+	    //send the form using formspree
+	    url: "https://formspree.io/botoole518@gmail.com", 
+	    method: "POST",
+	    data: datastring,
+	    dataType: "json"
+	  });
+	  $('#js-form-message').addClass('text-success text-large').text('Thanks for reaching out! Your message has been sent successfully. I\'ll be in touch as soon as possible.');
 	  return false;
 	}
 }
