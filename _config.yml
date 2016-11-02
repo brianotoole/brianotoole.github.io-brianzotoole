@@ -26,7 +26,8 @@ version:             1.0.0
  #repo:    
  
 collections:
-  - projects      
+  projects:
+    output: true     
 
 # Gems
 gems:
