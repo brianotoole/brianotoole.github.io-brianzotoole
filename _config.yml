@@ -44,14 +44,14 @@ assets:
    
     
   #
-  autowrite: false
+  autowrite: true
   cache: false
   #cache_type: memory | filesystem | default: filesystem
   #cdn: https://cdn.example.com
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
   prefix: "/assets"
-  digest: true
+  digest: false
 
   #
   assets:

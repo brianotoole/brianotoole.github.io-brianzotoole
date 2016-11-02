@@ -2,6 +2,7 @@
 layout: post
 title: Free Cloud Servers
 category: blog
+img: placeholder2.jpg
 ---
 	
 > When opting for cloud hosting, clients are renting virtual server space rather than renting or purchasing physical servers. These typically can cost a ton of money.... here's how to set one up for free.
