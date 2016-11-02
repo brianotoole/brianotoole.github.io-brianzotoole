@@ -52,12 +52,12 @@
 .split {}
 .split-wrap {
   padding: calc-em(60px) calc-em(30px);
-  max-width: calc-em(375px);
+  max-width: calc-em(575px);
 }
 .project-img {
   background-size: cover;
   background-position: center center;
-  height: calc-em(375px);
+  height: calc-em(400px);
   &.one {
     background-position: 30% center;
     background-image: url('http://flnet.sachsdigital.com/wp-content/themes/spike/img/pexels-photo-2.jpg');
