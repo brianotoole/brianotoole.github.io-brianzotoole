@@ -12,7 +12,7 @@
   
   <!-- Feat. img -->
   <div class="grid-one-third pad-left-0">
-	<img class="post-image" width="170" height="170" alt="Marcin Treder" src="https://www.uxpin.com/images/homepage/webinars/photo-marcin-treder.jpg">
+  <img class="post-image" width="170" height="170" alt="{{post.title}}" src="{% img '{{ post.img }}' %}">
   </div><!--/.grid-->
   
    <!-- Post meta -->
@@ -28,7 +28,6 @@
 </div><!--/.posts-->
 
 <a class="btn btn-primary btn-large float-right" href="{{ site.url }}/news">More News</a>
-
 
 <!-- Pagination 
 <div class="pagination">
