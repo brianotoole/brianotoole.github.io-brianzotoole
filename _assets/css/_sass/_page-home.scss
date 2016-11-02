@@ -51,13 +51,23 @@
 
 .split {}
 .split-wrap {
-  padding: calc-em(60px) calc-em(30px);
-  max-width: calc-em(575px);
+  padding: calc-em(10px);
+  max-width: 100%;
+  @media (min-width: $bp-medium) {
+    padding: calc-em(60px) calc-em(30px);
+    max-width: calc-em(575px);
+  }
 }
 .project-img {
   background-size: cover;
   background-position: center center;
-  height: calc-em(400px);
+  height: calc-em(200px);
+  @media (min-width: $bp-medium) {
+    height: calc-em(400px);
+  }
+  @media (max-width: $bp-small) {
+    display: none;
+  }
   &.one {
     background-position: 30% center;
     background-image: url('http://flnet.sachsdigital.com/wp-content/themes/spike/img/pexels-photo-2.jpg');

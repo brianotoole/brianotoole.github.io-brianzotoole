@@ -26,13 +26,17 @@
   width: 100%;
   color: $color-gray;
   padding-bottom: calc-em(25px);
-  border-bottom: 10px solid $color-primary;
+  border-bottom: none;
   @media (min-width: $bp-medium) {
 	width: 105%;//expand border into post-image
+	border-bottom: 10px solid $color-primary;
   }
 }
 .post-image {
   border-radius: 50%;
+  @media (max-width: $bp-small) {
+    display: none;
+  }
 }
 .page-title,
 .post-title {

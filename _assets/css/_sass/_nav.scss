@@ -118,6 +118,9 @@
   transition: all 0.2s;
   opacity: 1;
   transform: translate3d(0, 0, 0);
+  @media (max-width: 480px) {
+    font-size: calc-em(24px);
+  }
 }
 .menu-list li a {
   display: block;

@@ -5,7 +5,10 @@
   flex: 1;
   position: relative;
   width: 100%;
-  padding-top: calc-em(200px);
+  padding-top: calc-em(150px);
+  @media (min-width: $bp-medium) {
+    padding-top: calc-em(200px);
+  }
 }
 
 .content {
