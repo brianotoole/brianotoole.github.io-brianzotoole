@@ -3,10 +3,11 @@ layout: page
 title: Recent Projects
 bodyclass: projects bg-gray
 ---
-
-{% for project in site.projects %}
-  {% assign loopindex = forloop.index | modulo: 2 %}
+{% assign project_items = site.projects | sort: 'date' | reverse %}
+{% for project in project_items %}
+  {% assign loopindex = forloop.index | modulo: 2  %}
   {% if loopindex == 1 %}
+
 
 <div class="row split bg-white">
   <div class="grid-half pad-0">
@@ -35,6 +36,5 @@ bodyclass: projects bg-gray
     <div class="project-img two"></div>
   </div><!--/.grid-->
 </div><!--/.row-->
-
   {% endif %}
 {% endfor %}
