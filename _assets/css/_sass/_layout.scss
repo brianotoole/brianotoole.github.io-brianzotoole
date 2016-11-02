@@ -2,6 +2,7 @@
 // Styles for managing the structural hierarchy of the site.
 
 .content-wrap {
+  flex: 1;
   position: relative;
   width: 100%;
   padding-top: calc-em(200px);
@@ -26,5 +27,17 @@
 }
 
 .footer {
-  height: calc-em(75px);
+  flex: none;
+  padding: calc-em(35px) 0;
+  color: $color-gray;
+  p {
+    display: inline-block;
+    margin: 0;
+  }
+  a {
+    color: $color-gray;
+    &:first-child {
+      padding-right: calc-em(15px);
+    }
+  }
 }

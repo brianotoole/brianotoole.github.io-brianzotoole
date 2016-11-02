@@ -10,6 +10,10 @@ body {
 	font-size: $font-size; //use relative sizings for everything; body = 100% or 16px
 	font-weight: normal;
 	line-height: 1.5;
+	//sticky footer using flex: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 
 	@media (min-width: $bp-medium) {
 		line-height: 1.5625;
