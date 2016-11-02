@@ -244,5 +244,6 @@ q:after {
 // Page titles
 .section-title {
   padding-bottom: calc-em(10px);
-  border-bottom: 2px solid $color-black;
+  border-bottom: 2px solid $color-gray;
+  color: $color-gray;
 }

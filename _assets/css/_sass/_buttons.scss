@@ -19,6 +19,7 @@
 	margin-right: calc-em(5px);
 	margin-bottom: calc-em(5px);
 	padding: calc-em(8px) calc-em(11px);
+	transition: 0.25s all ease-out;
 
 	&:hover,
 	a &:hover,
@@ -60,7 +61,6 @@
  */
 .btn:active,
 .btn.active {
-	box-shadow: inset 0 calc-em(2.5px) calc-em(4px) rgba(0, 0, 0, 0.15), 0 calc-em(1px) calc-em(2.5px) rgba(0, 0, 0, 0.05);
 	outline: 0;
 }
 
