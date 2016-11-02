@@ -13,7 +13,7 @@ bodyclass: home
   </div><!--/.container.sm-->
 </section><!--/.hero-->
 
-<section class="projects pad bg-gray">
+<section class="projects pad bg-white">
   <div class="container">
     <div class="row">
       <div class="grid-full pad-0">
@@ -22,7 +22,7 @@ bodyclass: home
     </div><!--/.row-->
     
     {% for project in site.projects limit:1 %}
-    <div class="row split bg-white">
+    <div class="row split">
       <div class="grid-half pad-0">
         <div class="project-img one"></div>
       </div><!--/.grid-->
@@ -37,7 +37,7 @@ bodyclass: home
     {% endfor %}
     
     {% for project in site.projects limit:1 offset: 1 %}
-    <div class="row split bg-white">    
+    <div class="row split">    
       <div class="grid-half">
         <div class="split-wrap">
           <h3 class="project-title">{{ project.title }}</h3>

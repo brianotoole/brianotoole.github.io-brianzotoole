@@ -7,7 +7,8 @@
   z-index: 8001;
 }
 .i-menu a {
-  display: inline-block;
+  display: block;
+  margin-top: calc-em(-5px);
   width: calc-em(25px);
   height: calc-em(27px);
   cursor: pointer;
@@ -19,6 +20,8 @@
   position: absolute;
   left: calc-em(-55px);
   top: calc-em(-11px);
+  font-weight: 900;
+  font-size: calc-em(20px);
 }
 .i-menu a i {
   position: relative;
