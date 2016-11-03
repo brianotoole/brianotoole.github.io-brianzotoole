@@ -2,8 +2,8 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each page is wrapped in `.page` and is only used on the page layout.
 
 .page,
-.post {
-  margin-bottom: calc-em(40px);
+.post-entry {
+  margin-bottom: calc-em(80px);
 }
 
 .post-item {
@@ -22,12 +22,13 @@
   color: $color-body;
 }
 .post-cat {
-  display: block;
+  display: none;
   width: 100%;
   color: $color-gray;
   padding-bottom: calc-em(25px);
   border-bottom: none;
   @media (min-width: $bp-medium) {
+    display: block;
 	width: 105%;//expand border into post-image
 	border-bottom: 10px solid $color-primary;
   }

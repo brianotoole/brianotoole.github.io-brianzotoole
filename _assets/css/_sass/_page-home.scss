@@ -9,11 +9,14 @@
 .hero { 
   position: relative;
   width: 100%;
-  height: calc-em(700px);
-  min-height: calc-em(350px);
+  height: calc-em(600px);
   margin: 0;
   padding: 0;
   background: $color-primary;
+  @media (min-width: $bp-medium) {
+	height: calc-em(700px);
+    min-height: calc-em(350px);
+  }
   /*&:before {
 	content: '';
 	position: absolute;
@@ -30,6 +33,9 @@
     position: relative;
     padding-top: calc-em(250px);
     z-index: 1;
+    @media (max-width: $bp-small) {
+      padding-top: calc-em(190px);
+    }
   }
   .hero-title {
 	margin-bottom: 0;
@@ -64,20 +70,24 @@
     padding: calc-em(60px) calc-em(30px);
     max-width: calc-em(575px);
   }
+  @media (max-width: $bp-xlarge) {
+	padding: calc-em(15px) calc-em(30px);
+  }
+  @media (max-width: $bp-large) {
+	padding: 0;
+  }
 
 }
 .project-img {
   position: relative;
   width: 100%;
-  height: calc-em(400px);
+  height: 100%;
   img {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-size: cover;
     background-position: 100%;
-    @media (min-width: $bp-medium) {
-      height: calc-em(400px);
-    }
+    margin-bottom: -9px;
     @media (max-width: $bp-small) {
       display: none;
     }
@@ -90,10 +100,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding-top: 178px;
+  padding-top: 200px;
   text-align: center;
-  background: rgba($color-black, 0.2);
-  color: $color-white;
+  background: rgba($color-black, 0.05);
+  color: $color-black;
   font-size: calc-em(22px);
   transition: 0.3s all ease-in-out;
 }
@@ -104,7 +114,7 @@
 .project-img { 
   &:hover {
 	.after {
-	  background: rgba($color-primary, 0.95);
+	  background: rgba($color-accent, 0.9);
 	}
 	span {
 	  display: block;

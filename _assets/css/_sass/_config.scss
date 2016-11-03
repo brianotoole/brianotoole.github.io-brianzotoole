@@ -21,6 +21,7 @@ $color-primary-dark: darken($color-primary, 7%);
 $color-accent-dark: darken($color-accent, 7%);
 
 // Components
+$color-link: darken($color-primary-dark, 20%);
 $border-light: rgba($color-gray, 0.05);
 $color-info: #0088cc; // Blue
 $color-success: #377f31; // Green
@@ -39,7 +40,7 @@ $font-monospace: Menlo, Monaco, monospace;
 // Breakpoints
 $bp-xsmall: 20em; //converted to pixels = #em x 16(default body font-size) or, 20x16=320px
 $bp-small: 30em; //480
-$bp-medium: 40em; //640
+$bp-medium: 53.125em; //850
 $bp-large: 60em; //960
 $bp-xlarge: 80em; //1280
 

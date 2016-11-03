@@ -34,7 +34,7 @@ h1,
 	font-size: calc-em(32px);
 	padding-top: 0.5em;
 	@media (min-width: $bp-medium) {
-		font-size: calc-em(56px);
+		font-size: calc-em(50px);
 	}
 }
 h2,
@@ -78,7 +78,7 @@ p {
 }
 a {
 	background-color: transparent;
-	color: $color-primary-dark;
+	color: $color-link;
 	text-decoration: none;
 	word-wrap: break-word;
 	-webkit-text-decoration-skip: objects; 

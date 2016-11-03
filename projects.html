@@ -9,10 +9,11 @@ bodyclass: projects
   {% if loopindex == 1 %}
 
 
-<div class="row split">
+<div class="row">
   <div class="grid-half pad-0">
-    <div class="project-img">
+    <div class="project-img hidden-sm">
 	  <img class="one" src="{{site.baseurl}}/assets/{{project.img}}">
+	  <div class="after"><span class="view">Click to View <span class="lnr lnr-arrow-right"></span></span></div>
     </div><!--/.project-img-->
   </div><!--/.grid-->
   <div class="grid-half">
@@ -35,7 +36,7 @@ bodyclass: projects
     </div><!--/.split-wrap-->
   </div><!--/.grid-->
   <div class="grid-half pad-0">
-    <div class="project-img">
+    <div class="project-img hidden-sm">
 	  <img class="two" src="{{site.baseurl}}/assets/{{project.img}}">
     </div><!--/.project-img-->
   </div><!--/.grid-->

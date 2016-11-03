@@ -2,7 +2,7 @@
 layout: post
 title: Jaguars 2016 Draft
 date: 2016-05-06
-img: project-pti.jpg
+img: project-jags.jpg
 ---
 
 Outside of work, I keep up with sports as much a I can – particularly, the NFL. There's nothing quite like a Sunday afternoon in December when your favorite team is in the playoff hunt. Well, in my case, when you’re wishing your team is in the playoff hunt. Yes, I’m a Jacksonville Jaguars fan. And it’s been a tough life. Since 2010, the Jaguars haven’t won more than 5 games and have consistently become a joke for NFL analysts.
