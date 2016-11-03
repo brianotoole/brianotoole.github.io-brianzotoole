@@ -37,12 +37,13 @@
     height: auto;
     background-size: cover;
     background-position: 100%;
-    margin-bottom: -9px;
+    margin-bottom: calc-em(-8px);
     @media (max-width: $bp-small) {
       display: none;
     }
   }
 }
+
 // project img overlay
 .project-img .after {
   position: absolute;

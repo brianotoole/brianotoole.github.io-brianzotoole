@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Sachs Media
+layout: project
+title: Sachs Media Grp.
 date: 2016-08-01
 img: project-smg.jpg
 ---

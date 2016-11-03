@@ -171,11 +171,18 @@
 }
 
 .hidden-sm {
+  display: block;
   @media (max-width: $bp-medium) {
     display: none;
   }
 }
 .visible-sm {
+  display: none;
+  @media (max-width: $bp-medium) {
+    display: inline-block;
+  }
+}
+.block-sm {
   @media (max-width: $bp-medium) {
     display: block;
   }

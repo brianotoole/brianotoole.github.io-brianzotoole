@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: People's Trust Insurance
 date: 2015-04-01
 img: project-pti.jpg

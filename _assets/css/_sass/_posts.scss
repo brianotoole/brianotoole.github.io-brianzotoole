@@ -2,15 +2,18 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each page is wrapped in `.page` and is only used on the page layout.
 
 .page,
-.post-entry {
+.post-entry,
+.project-entry {
   margin-bottom: calc-em(80px);
+}
+.post-entry {
   img {
     display: block;
 	max-width: auto;
 	margin: calc-em(20px) auto;
 	text-align: center;
 	@media (min-width: $bp-medium) {
-	  max-width: calc-em(800px);
+	  max-width: calc-em(480px);
 	}
   }
 }
