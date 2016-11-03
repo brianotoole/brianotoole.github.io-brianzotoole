@@ -62,6 +62,7 @@ assets:
   sources:
     - _assets/css
     - _assets/images
+    - _assets/img
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/fonts

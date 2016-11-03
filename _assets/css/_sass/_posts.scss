@@ -32,11 +32,38 @@
 	border-bottom: 10px solid $color-primary;
   }
 }
-.post-image {
+.post-icon {
+  display: inline-block;
+  margin: 0;
   border-radius: 50%;
-  @media (max-width: $bp-small) {
-    display: none;
+  background: $color-primary;
+  @media (max-width: $bp-medium) {display: none;}
+  span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    font-size: 50px;
+    color: $color-gray-light;
   }
+}
+.post-image {
+  position: relative;
+  width: calc-em(170px);
+  height: calc-em(170px);
+  filter: grayscale(100%);
+  img {border-radius: 50%;}
+  @media (max-width: $bp-small) {display: none;}
+}
+.post-image .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: $color-white;
+  transition: 0.25s all ease-out;
 }
 .page-title,
 .post-title {

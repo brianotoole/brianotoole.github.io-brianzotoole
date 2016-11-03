@@ -2,7 +2,8 @@
 layout: post
 title: 4 Major Social Media Mistakes
 category: blog
-img: placeholder.jpg
+img: blogsocial.jpg
+icon: lnr-thumbs-down
 ---
 	
 > Here are 4 mistakes you don't want to make on social media.
