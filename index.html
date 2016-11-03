@@ -24,7 +24,10 @@ bodyclass: home
     {% for project in site.projects limit:1 %}
     <div class="row split">
       <div class="grid-half pad-0">
-        <div class="project-img one"></div>
+        <div class="project-img">
+	      <img class="one" src="{{site.baseurl}}/assets/{{project.img}}">
+	      <div class="after"><span class="view">Click to View <span class="lnr lnr-arrow-right"></span></span></div>
+        </div><!--/.project-img-->
       </div><!--/.grid-->
       <div class="grid-half">
         <div class="split-wrap">
@@ -46,7 +49,10 @@ bodyclass: home
         </div><!--/.split-wrap-->
       </div><!--/.grid-->
       <div class="grid-half pad-0">
-        <div class="project-img two"></div>
+        <div class="project-img">
+	      <img class="two" src="{{site.baseurl}}/assets/{{project.img}}">
+	      <div class="after"><span class="view">Click to View <span class="lnr lnr-arrow-right"></span></span></div>
+        </div><!--/.project-img-->
       </div><!--/.grid-->
     </div><!--/.row-->
     {% endfor %}
