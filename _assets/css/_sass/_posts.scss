@@ -7,9 +7,12 @@
 }
 
 .post-item {
-  padding: calc-em(30px) 0 calc-em(20px);
+  padding-top: calc-em(20px);
   border-bottom: 2px solid $border-light;
   &:last-child {border-bottom: none;}
+  @media (min-width: $bp-medium) {
+    padding: calc-em(30px) 0 calc-em(20px);
+  }
 }
 
 /* Meta data line below post title */
