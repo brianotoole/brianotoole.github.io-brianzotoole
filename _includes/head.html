@@ -9,6 +9,17 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+  {% if page.title == "Brian Z. O'Toole" %}
+  <meta name="description" content="Brian O'Toole is a director of web development living in Tampa, Florida. He helps brands build recognition using the latest in web development strategy."/>
+  {% else %}
+  <meta name="description" content="{{ page.content | strip_html | truncatewords: 35 }}"/>
+  {% endif %}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 40 }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 30 }}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
   {% css main %}
   <script>
   //typekit
