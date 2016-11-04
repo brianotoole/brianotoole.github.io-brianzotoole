@@ -39,7 +39,7 @@ gems:
 # Jekyll-assets
 assets:
   compress:
-    css: false
+    css: true
     js: true
    
     
