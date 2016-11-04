@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Jaguars 2016 Draft
 date: 2016-05-06
 img: project-jags.jpg

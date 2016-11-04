@@ -130,3 +130,33 @@ input[type="submit"] {
 input.btn {
 	margin-right: 0;
 }
+
+// button arrow
+.btn-arrow {
+  position: relative;
+  font-size: calc-em(22px);
+  padding-right: calc-em(24px);
+  box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  transition: transform 0.15s;
+  &:after {
+    content: "\e87a";
+    font-family: Linearicons-Free;
+    position: absolute;
+    display: inline-table;
+	vertical-align: middle;
+	font-size: 20px;
+	color: $color-black;
+    right: calc-em(1em);
+    padding: 0 calc-em(1px);
+    transform: translateZ(0);
+    transition: transform 0.15s ease-out;
+  }
+  &:hover, &:focus {
+    text-decoration: none;
+	&:after {
+	  transform: translateX(5px);
+	}
+  }
+ 
+}

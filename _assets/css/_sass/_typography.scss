@@ -113,6 +113,10 @@ ul,
 ol {
 	margin: 0 0 $spacing calc-em(32px);
 	padding: 0;
+	font-size: calc-em(16px);
+	@media (min-width: $bp-medium) {
+		font-size: calc-em(18px);
+	}
 }
 
 ul ul,

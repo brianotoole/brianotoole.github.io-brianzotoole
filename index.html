@@ -13,7 +13,7 @@ bodyclass: home
   </div><!--/.container.sm-->
 </section><!--/.hero-->
 
-<section class="projects pad bg-white">
+<section class="recent-projects pad bg-white">
   <div class="container">
     <div class="row">
       <div class="grid-full pad-0">
@@ -27,7 +27,7 @@ bodyclass: home
       <div class="grid-half pad-0">
         <div class="project-img hidden-sm">
 	      <img class="one" src="{{site.baseurl}}/assets/{{project.img}}">
-	      <div class="after"><a href="{{ project.url }}"><span class="view">View Project<span class="lnr lnr-arrow-right"></span></span></a></div>
+	      <div class="after"><a href="{{ project.url }}"><span class="view">View Project<span class="lnr lnr-exit-up"></span> </span></a></div>
         </div><!--/.project-img-->
       </div><!--/.grid-->
       <div class="grid-half">
@@ -53,13 +53,13 @@ bodyclass: home
       <div class="grid-half pad-0">
         <div class="project-img hidden-sm">
 	      <img class="two" src="{{site.baseurl}}/assets/{{project.img}}">
-	      <div class="after"><a href="{{ project.url }}"><span class="view">View Project<span class="lnr lnr-arrow-right"></span></span></a></div>
+	      <div class="after"><a href="{{ project.url }}"><span class="view">View Project<span class="lnr lnr-exit-up"></span> </span></a></div>
         </div><!--/.project-img-->
       </div><!--/.grid-->
     </div><!--/.row-->
     {% endfor %}
     
-    <a class="link visible-sm block-sm" href="{{site.url}}/projects">More Projects</a>
+    <a class="btn-arrow" href="{{ site.url }}/projects">More Projects</a>
 
   </div><!--/.container-->
 </section><!--/.intro-->

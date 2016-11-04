@@ -52,9 +52,22 @@
 // Intro 
 .intro {}
 
+// Recent projects
+.recent-projects {
+  .btn-arrow {    
+    float: right;
+    padding-top: calc-em(45px);
+    margin-bottom: calc-em(-20px);
+  }
+}
+
 // Recent posts
-.recent-posts {}
+.recent-posts {
+  .btn-arrow {
+    float: right;
+    margin: calc-em(20px) 0;
+  }
+}
 
 // Contact
 .contact {}
-
