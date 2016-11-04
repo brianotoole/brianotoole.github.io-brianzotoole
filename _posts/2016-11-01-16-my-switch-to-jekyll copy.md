@@ -17,15 +17,15 @@ This month, I decided it was time for me to evaluate my own website. After evalu
 
 Every web developer will their have their own reasons for using Jekyll, but for me, it comes down to two main benefits...
 
-1. The language
-2. The speed
+1. language
+2. speed
 
-### The Language
+### Language
 
 Jekyll uses *Liquid* as it's templating engine and combines that with *Markdown*, making it very minimalistic and very efficient for me. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and the Liquid renderer. Just like WordPress (or PHP), you can create templates to manage page layouts, use collections to manage post types, and use data variables to access data.
 
-### The Speed
-The most important thing about Jekyll, is that it creates a static representation of the site, requiring only a static web-server. Wordpress (or other PHP-based CMS's) require a database and server-side (PHP, MySQL) code. High-traffic, dynamic sites must employ a caching layer that ultimately performs the same job Jekyll sets out to do - **serve static content**.
+### Speed
+The most important thing about Jekyll, is that it creates a static representation of the site, requiring only a static web-server. Wordpress (or other PHP-based CMSs) require a database and server-side (PHP, MySQL) code. High-traffic, dynamic sites must employ a caching layer that ultimately performs the same job Jekyll sets out to do - **serve static content**.
 
 Oh, and another thing... beacause of this, you can host your site **for free** using GitHub Pages. 
 

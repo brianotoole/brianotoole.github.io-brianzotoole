@@ -6,7 +6,6 @@ img: blogsocial.jpg
 icon: lnr-book
 ---
 
-### Overview
 The Storied Life of A.J. Fikry is about a cynical, depressed widower who lives upstairs in the bookstore he owns. After learning about his store facing the worst sales in his history, he falls into more bad news... his rare, original copy collection of an Edgar Allen Poe book (worth a ton) was stolen from his apartment. Just when he thinks it can't get any worse, something is deleivered to his bookstore than changes his outlook on life.
 
 ### Review
