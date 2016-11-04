@@ -22,8 +22,8 @@ author:
 
 # Custom vars
 version:             1.0.0
-#github:
- #repo:    
+github:
+  url: https://brianotoole.github.io/brianz3/
  
 collections:
   projects:
@@ -39,7 +39,7 @@ gems:
 # Jekyll-assets
 assets:
   compress:
-    css: false
+    css: true
     js: true
    
     
