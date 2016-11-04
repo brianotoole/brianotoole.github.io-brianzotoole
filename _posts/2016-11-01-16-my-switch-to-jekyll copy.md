@@ -8,7 +8,7 @@ icon: lnr-code
 
 When the term *"website redesign"* is used, most people tend to think of *creating a new look & feel of the interface* for a website. For me, I like to look at a redesign from the inside out. This means, taking a look at what currently exists and if all systems are working to maxium potential. **A redesign should be a full-stack decision... not just front-end**.
 
-This month, I decided it was time for me to evaluate my own website. After evaluating at my objectives, I decided it was time for me to switch from WordPress to Jekyll. We'll get into the *Good vs Bad* of Jekyll and Wordpress, but for now... let's talk about my decision to switch my website to Jekyll.
+This month, I decided it was time for me to evaluate my own website. After looking at my objectives, I felt the switch from WordPress to Jekyll was necessary. We'll get into the *Good vs Bad* of Jekyll and Wordpress in another post, but for now... let's talk about my decision to switch my website to Jekyll.
 
 ### What is Jekyll?
 [Jekyll](https://jekyllrb.com/docs/home){:target="_blank"} is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator". However, it is **not a blogging software**. It is **a parsing engine**. It does not come with any content and it does not have any templates or design elements (out of the box).
