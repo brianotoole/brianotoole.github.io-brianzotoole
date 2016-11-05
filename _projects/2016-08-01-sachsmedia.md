@@ -5,4 +5,6 @@ date: 2016-08-01
 img: project-smg.jpg
 ---
 
-> Helped Sachs Media Group launch a new website showcasing our focus on a strong web skillset.
+> I helped build our new company website showcasing a bold, breakthrough approach to communications.
+
+![smg home image](/assets/project-smg-home.png)

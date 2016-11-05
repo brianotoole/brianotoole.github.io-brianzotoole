@@ -13,7 +13,7 @@ The American Chemistry Council engaged us to create a safe space for moms to dis
 
 ### Objectives
 * Create an engaging blog website with ability to manage many category types of content.
-* High-emphasis on mobile users
+* Easy to use on mobile
 * Generate an increase in traffic and awareness of cleaning and disinfection products
 
 ### Work Involved
@@ -21,3 +21,5 @@ I helped with strategy for user experience, technology selection, and web develo
 
 ### Takeaway
 *Mommy-bloggers* are very engaging! There are more than 15,000+ visits per month and most of the traffic is via social media, due to the high amount of shares / conversation.
+
+![mac single-article image](/assets/project-mac-article.png)

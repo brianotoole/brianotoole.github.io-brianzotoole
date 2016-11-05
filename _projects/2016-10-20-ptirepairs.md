@@ -18,3 +18,4 @@ img: project-ptirepairs.jpg
 ### Work Involved
 I developed the "Find an Agent" tool, which showcased on the landing page and on the main PTI website. By visiting the "Find an Agent" page, your location is automatically detected (with the help of the *HTML5 geolocation API*) and a list of local authorized agencies are displayed. You can also search for agencies by zip code. The *Google Maps API* is used to pinpoint the latitude/ longitude location for each agency address. Clicking "contact" will allow you to send a message direcly to the agency, to initiate direct conversation.
 
+![ptirepairs agent image](/assets/project-ptirepairs-agent.png)
