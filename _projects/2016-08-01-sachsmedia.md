@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: project
 title: Sachs Media Grp.
 date: 2016-08-01
 img: project-smg.jpg
+link: https://sachsmedia.com
 ---
 
-> I helped build our new company website showcasing a bold, breakthrough approach to communications.
+I helped build our new company website showcasing a bold, breakthrough approach to communications.
 
 ![smg home image](/assets/project-smg-home.png)

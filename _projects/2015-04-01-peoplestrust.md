@@ -1,14 +1,12 @@
 ---
-layout: post
+layout: project
 title: People's Trust Insurance
 date: 2015-04-01
 img: project-pti.jpg
 featured-top: true
+link: https://peoplestrustinsurance.com
 ---
 
-> <span class="lnr lnr-exit-up"></span> [View website](https://peoplestrustinsurance.com){:target="_blank"}
-
-### Project Overview
 People's Trust Insurance leadership wanted to generate more sales leads and build the reputation of its Florida property insurance company. The insurance company engaged our firm to bring to life strategies that would rebrand the company, focus its marketing and communications, and showcase its unique approach to home insurance protection in Florida in a variety of ways.
 
 ### Objectives

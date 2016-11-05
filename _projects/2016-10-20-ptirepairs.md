@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: project
 title: PTI Repairs
 date: 2016-10-20
 img: project-ptirepairs.jpg
+link: http://ptirepairs.com
 ---
-
-> <span class="lnr lnr-exit-up"></span> [View website](http://ptirepairs.com){:target="_blank"}
 
 ### Project Overview
 *PTI Repairs* is a website landing page to reinforce a campaign initiative by People's Trust Insurance. The purpose of the campaign is to inform homeowner's about PTI's unique service offering. Most home insurance companies require you, as the policyholder, to figure out how you will repair damage when you file a claim... they just write you a check and check out. With People's Trust, they save you the hassle of finding a contractor, getting price quotes and coordinating all the repairs yourself. Basically, they insure and repair... you relax.
