@@ -13,14 +13,14 @@
 }
 
 code {
-	background-color: lighten( $color-gray-light, 7% );
+	background-color: $color-gray-light;
 	color: $color-code;
 	padding: calc-em(4px);
 	word-wrap: break-word;
 }
 
 pre {
-	background-color: lighten( $color-gray-light, 6% );
+	background-color: $color-gray-light;
 	display: block;
 	line-height: 1.5;
 	margin-bottom: $spacing;
@@ -33,7 +33,6 @@ pre {
 	code {
 		background-color: transparent;
 		border: 0;
-		color: inherit;
 		font-size: 1em;
 		padding: 0;
 	}
