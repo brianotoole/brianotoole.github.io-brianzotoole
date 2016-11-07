@@ -23,7 +23,7 @@ The most important concept for having a maintainable css codebase, is to create 
 
 Assuming your project is already setup with Sass, the next step to defining your architecture is to create a table of contents for your project - `main.scss` or `style.scss`. Below is a simple starting point. This does not use any particular architecture approach, but it does define how items should be organized and what naming conventions will be applied project-wide.
 
-
+### Example Sass file structure 
 ~~~~
 // setup
 @import “config”;

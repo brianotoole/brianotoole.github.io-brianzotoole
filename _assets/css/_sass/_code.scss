@@ -10,6 +10,9 @@
  	border-radius: calc-em(1px);
 	font-family: $font-monospace;
 	font-size: calc-em(14px);
+	@media (min-width: $bp-medium) {
+      font-size: calc-em(16px);
+	}
 }
 
 code {
