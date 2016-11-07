@@ -4,13 +4,13 @@ title: The Importance of a Maintainable CSS Architecture
 category: web
 img: blogsocial.jpg
 icon: lnr-code
+description: One of the few things in web/software that is constant, is change. Front-end developers working on large websites know the challenge of writing maintainable CSS. A maintainable codebase means that any developer with access can edit styles without worry that another element is negatively impacted by accident. 
 ---
 
-One of the few things in web/software that is constant, is change. Front-end developers working on large websites know the challenge of writing maintainable CSS. A maintainable codebase means that any developer with access can edit styles without worry that another element is negatively impacted by accident.
+One of the few things in web/software that is constant, is change. Front-end developers working on large websites know the challenge of writing maintainable CSS. 
 
-
-### What does maintainable css structure mean?
-When marketers get together and discuss the latest and greatest “redesign” for an existing project, css styles (among other files) will need to be adapted to the new design. Changing css is easy. Unintentional changes is what makes updating css hard. Having a sound structure in place means reducing the number of possible error sources. It requires a system of adaptability, so other developers can pick up the project and understand the logic workflow.
+### What does maintainable css architecture mean?
+A maintainable codebase means that any developer with access can edit styles without worry that another element is negatively impacted by accident. When marketers get together and discuss the latest and greatest “redesign” for an existing project, css styles (among other files) will need to be adapted to the new design. Changing css is easy. Unintentional changes is what makes updating css hard. Having a sound structure in place means reducing the number of possible error sources. It requires a system of adaptability, so other developers can pick up the project and understand the logic workflow.
 
 
 ### Methodology
@@ -28,9 +28,9 @@ Assuming your project is already setup with Sass, the next step to defining your
 // setup
 @import “config”;
 @import “mixins”;
-@import “normalize”;
 
 // base
+@import “normalize”;
 @import “base”;
 
 // layout
@@ -52,7 +52,7 @@ Assuming your project is already setup with Sass, the next step to defining your
 * **Applies to:**  Define variable, mixins, functions, etc.
 
 ##### Base
-* **Applies to:** Global and default styles
+* **Applies to:** Get all browsers on same page ([normalize](https://github.com/necolas/normalize.css/blob/master/normalize.css){:target="_blank"} or [reset](http://meyerweb.com/eric/tools/css/reset/reset.css){:target="_blank"}) and define global styles for project
 * **Example selectors:** *html, body, h1, p, a*
 
 ##### Layout
