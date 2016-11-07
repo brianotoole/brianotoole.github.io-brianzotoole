@@ -49,7 +49,7 @@ Assuming your project is already setup with Sass, the next step to defining your
 ~~~~
 
 ##### Setup
-* **Applies to:**  Define variable, mixins, functions, etc.
+* **Applies to:**  Define variables, mixins, functions, etc.
 
 ##### Base
 * **Applies to:** Get all browsers on same page ([normalize](https://github.com/necolas/normalize.css/blob/master/normalize.css){:target="_blank"} or [reset](http://meyerweb.com/eric/tools/css/reset/reset.css){:target="_blank"}) and define global styles for project

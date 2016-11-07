@@ -12,7 +12,7 @@
   width: calc-em(25px);
   height: calc-em(27px);
   cursor: pointer;
-  color: $color-black;
+  color: $color-white;
   letter-spacing: 0.06em;
 }
 .i-menu a span {
@@ -20,7 +20,6 @@
   position: absolute;
   left: calc-em(-55px);
   top: calc-em(-11px);
-  font-weight: 900;
   font-size: calc-em(20px);
 }
 .i-menu a i {
@@ -28,7 +27,7 @@
   display: inline-block;
   width: 25px;
   height: 3px;
-  background: $color-black;
+  background: $color-white;
   transition: all 0.2s ease-out;
 }
 
@@ -37,7 +36,7 @@
   content: '';
   width: 25px;
   height: 3px;
-  background: $color-black;
+  background: $color-white;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
@@ -65,12 +64,19 @@
   bottom: 0;
   transform: rotateZ(-45deg);
 }
+.i-menu a.active i {
+  color: $color-black;
+}
+.i-menu a.active i::before,
+.i-menu a.active i::after {
+  background: $color-black;
+}
 
 // the wrapper & it's items
 .menu-wrapper {
   opacity: 0;
   visibility: hidden;
-  background: $color-accent-dark;
+  background: $color-accent;
   z-index: 8000;
   height: 100%;
   width: 100%;
@@ -129,10 +135,10 @@
   display: block;
   width: 100%;
   padding-bottom: calc-em(20px);
-  color: $color-black;
+  color: $color-link;
 }
 .menu-list li p {
-  color: $color-black;
+  color: $color-link;
 }
 @media (min-width: 768px) {
   .menu-list li a {
