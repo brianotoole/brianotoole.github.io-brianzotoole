@@ -7,7 +7,7 @@
 
 // Colors, pallete generated at: https://coolors.co/9d8d87-873d48-502b34-e3d3e4-00ba96
 $color-body: #0c0c0c;
-$color-primary: #96d5b4; // gainesboro
+$color-primary: #1abc9c; // gainesboro
 $color-accent:  #fff8e8; // gold
 
 $color-black: #272727;
@@ -21,8 +21,8 @@ $color-primary-dark: darken($color-primary, 7%);
 $color-accent-dark: darken($color-accent, 7%);
 
 // Components
-$color-link: darken($color-primary-dark, 20%);
-$color-link-dark: darken($color-primary-dark, 27%);
+$color-link: $color-primary-dark;
+$color-link-dark: darken($color-primary-dark, 7%);
 $border-light: rgba($color-gray, 0.05);
 $color-info: #0088cc; // Blue
 $color-success: #377f31; // Green
