@@ -9,17 +9,16 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  {% if page.title == "Brian Z. O'Toole" %}
-  <meta name="description" content="Brian O'Toole is a director of web development living in Tampa, Florida. He helps brands build recognition using the latest in web development strategy."/>
-  {% else %}
-  <meta name="description" content="{{ page.content | strip_html | truncatewords: 155 }}"/>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | strip_html | truncatewords: 160 }}" />
   {% endif %}
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ page.title | strip_html | truncatewords: 60 }}" />
-  <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 155 }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncatewords: 200 | escape }}{% endif %}" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 155 }}" />
-  <meta property="og:title" content="{{ page.title | strip_html | truncatewords: 60 }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncatewords: 160 | escape }}{% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+ 
   {% css main %}
   <script>
   //typekit
