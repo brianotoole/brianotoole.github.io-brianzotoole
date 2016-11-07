@@ -8,6 +8,7 @@
  * Primary buttons
  */
 .btn {
+    position: relative;
 	background-color: $color-primary-dark;
 	border: calc-em(1px) solid $color-primary-dark;
 	border-radius: calc-em(3px);
@@ -136,6 +137,7 @@ input.btn {
   position: relative;
   font-size: calc-em(22px);
   padding-right: calc-em(24px);
+  color: $color-link;
   box-shadow: 0 0 1px transparent;
   transform: perspective(1px) translateZ(0);
   transition: transform 0.15s;
@@ -154,6 +156,7 @@ input.btn {
   }
   &:hover, &:focus {
     text-decoration: none;
+    color: $color-link-dark;
 	&:after {
 	  transform: translateX(5px);
 	}

@@ -24,15 +24,10 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: url('#');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center top;
+    //background: linear-gradient(135deg, rgba($color-primary,0) 0%, rgba($color-primary,0) 54%, rgba($color-white,0.3) 55%, rgba($color-white,0.3) 100%);
   }*/
   .hero-text {
-    position: relative;
     padding-top: calc-em(250px);
-    z-index: 1;
     @media (max-width: $bp-small) {
       padding-top: calc-em(190px);
     }
@@ -45,7 +40,9 @@
   }
   .hero-title,
   .hero-tagline { 
+    position: relative;
     color: $color-black;
+    z-index: 1;
   }
 }
 
