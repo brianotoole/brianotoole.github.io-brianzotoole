@@ -17,7 +17,7 @@ For example, if I'm writing a component, it might look something like this:
 ~~~~
 .component-name {
   width: 100%;
- @media (min-width: $breakpoint-large) {
+  @media (min-width: $breakpoint-large) {
     width: 55%; //above breakpoint-large
   }
 }
@@ -28,8 +28,10 @@ This would compile to the following CSS:
 .component-name {
   width: 100%;
 }
- @media (min-width: $breakpoint-large) {
-    width: 55%; //above breakpoint-large
+  @media (min-width: $breakpoint-large) {
+    component-name {
+      width: 55%; //above breakpoint-large
+    }
   }
 }
 ~~~~
@@ -37,7 +39,7 @@ This would compile to the following CSS:
 So, instead of separating media queries into partial files in your directory, I'd recommend adding them inline. It's much, much easier to manage. Especially, when you will be working on a site that evolves rapidly.
 
 ### Potential Issues
-Some may think this may cause it to bloat your compiled file. However, if you are using a build tool, like Grunt, or minifying your assets, there's nothing to worry about. We're talking a few KBs in the grand scheme of things.
+Some may think this will create bloat. However, if you are using a build tool, like Grunt, or minifying your assets, there's nothing to worry about. We're talking a few KBs in the grand scheme of things.
 
 What I will concede; however, is that authorship style is down to the individual and it is a preference, rather than an issue. If this approach works for you, like it does for me, then give it a try.
 
