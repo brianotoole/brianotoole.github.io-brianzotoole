@@ -76,9 +76,6 @@ Assuming your project has Sass ready to go, the next step is to define your arch
 * **Applies to:** Reusable page components
 * **Example selectors:**  *.grid, .button, input*
 
-### Styleguide
-The purpose of creating a CSS coding styleguide is to encourage consistent CSS (or preprocessor CSS code) project-wide. The styleguide should be treated as a guide — rules can be modified according to project needs.
-
 ### Measurements
 Use a **relative sizing approach** for units - ems and percentages for everything, not pixels.
 
@@ -137,5 +134,15 @@ Example of writing semantically (purpose NOT appearance):~~~~
 }
 ~~~~
 
+### Styleguide
+Now that you have an established approach for your project, the last step is to document it into a styleguide. The purpose of creating a CSS styleguide is to encourage consistent CSS (or preprocessor CSS code) project-wide. The styleguide should be treated as a guide — rules can be modified according to project needs.
 
-There is no perfect approach to css architecture. If you have a documented plan and are reinforcing your conventions throughout your project, you are on the path to becoming a happier developer.
+### Takeaways
+Here are the steps for creating a scalable css system:
+* Choose a framework or boilerplate that is helps with responsive design patterns that work for your project, but doesn't make design decisions for you
+* Organize your file structure into a *table of contents* that makes sense for you, using a preprocessor like Sass.
+* Define your base font-size using a relative sizing approach
+* Establish and reinforce semantic naming conventions
+* Document your approach into a css styleguide
+
+There is no perfect approach to css architecture. If you have a documented plan and are reinforcing your conventions throughout your project, you are on the path to becoming a happier developer. 
