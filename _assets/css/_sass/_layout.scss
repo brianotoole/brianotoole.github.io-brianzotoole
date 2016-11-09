@@ -3,6 +3,7 @@
 
 .content-wrap {
   flex: 1;
+  -ms-flex: 1 0 auto; //damn you, IE
   position: relative;
   width: 100%;
   padding-top: calc-em(150px);
