@@ -46,6 +46,11 @@ Assuming your project has Sass ready to go, the next step is to define your arch
 @import “normalize”;
 @import “base”;
 
+// components
+@import “grid”;
+@import “buttons”;
+@import “forms”;
+
 // layout
 @import “layout”;
 @import “sidebar”;
@@ -54,11 +59,6 @@ Assuming your project has Sass ready to go, the next step is to define your arch
 @import “page-home”;
 @import “page-interior”;
 
-// components
-@import “grid”;
-@import “buttons”;
-@import “forms”;
-@import “helpers”;
 ~~~~
 
 ##### Setup
@@ -117,7 +117,7 @@ Everything scales relative to the base your base font-size. An easy way to conve
 * HTML elements should be in lowercase.
 * Classes should be lowercase.
 * Avoid camelCase
-* Name modifiers (state-based or Javascript rules) with adjectives. Ex - ".is-active"
+* Name modifiers with adjectives. Ex - ".is-active" or ".is-collapsed"
 * Write semantically - Name its purpose, not its appearance. 
 
 Example of writing semantically (purpose NOT appearance):~~~~
@@ -132,6 +132,19 @@ Example of writing semantically (purpose NOT appearance):~~~~
 .warning {
   color: $color-warning;
 }
+~~~~
+
+When naming variables in Sass, don't base the name on context. Example:
+~~~~
+// BAD
+$light-blue: #18f;
+$dark-blue: #383;
+~~~~
+
+~~~~
+// GOOD
+$primary: #18f;
+$secondary: #383;
 ~~~~
 
 ### Styleguide
