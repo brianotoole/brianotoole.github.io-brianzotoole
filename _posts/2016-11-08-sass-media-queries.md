@@ -1,12 +1,12 @@
 ---
 layout: post
-title: How I Do Media Queries in Sass
+title: How I Manage Media Queries in Sass
 category: web
 img: blogsocial.jpg
 icon: lnr-code
 description: Nesting media queries within the selector is much more easier to control for scalable css architecture
 ---
-In the past, writing css sucked! You needed to repeat yourself over and over, and eventually you ended up with a bloated sheet of repeated rules that was nearly impossible to read... let alone manage. 
+In the past, writing css sucked! You needed to repeat yourself over and over, and eventually you ended up with a bloated sheet of repeated rules that was nearly impossible to mantain.
 
 Thankfully, today (and since years ago), [Sass](http://sass-lang.com){:target="_blank"} has helped us take control of our css architecture. Sass allows you to use features such as variables, nesting, and inheritance in your css. Basically, it takes the bloat out of css and **enforces the *DRY Princle - Don't Repeat Yourself*.**
 
@@ -18,7 +18,7 @@ For example, if I'm writing a component, it might look something like this:
 .component-name {
   width: 100%;
   @media (min-width: $breakpoint-large) {
-    width: 55%; //above breakpoint-large
+    width: 55%;
   }
 }
 ~~~~
@@ -29,11 +29,10 @@ This would compile to the following CSS:
   width: 100%;
 }
   @media (min-width: $breakpoint-large) {
-    component-name {
-      width: 55%; //above breakpoint-large
+    .component-name {
+      width: 55%;
     }
   }
-}
 ~~~~
 
 So, instead of separating media queries into partial files in your directory, I'd recommend adding them inline. It's much, much easier to manage. Especially, when you will be working on a site that evolves rapidly.
