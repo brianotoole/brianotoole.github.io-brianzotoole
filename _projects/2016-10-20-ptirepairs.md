@@ -2,6 +2,7 @@
 layout: project
 title: PTI Repairs
 date: 2016-10-20
+description: PTI Repairs* is a website landing page to reinforce a campaign initiative by People's Trust Insurance. The purpose of the campaign is to inform homeowner's about PTI's unique service offering. Most home insurance companies require you, as the policyholder, to figure out how you will repair damage when you file a claim.
 img: project-ptirepairs.jpg
 link: http://ptirepairs.com
 ---
