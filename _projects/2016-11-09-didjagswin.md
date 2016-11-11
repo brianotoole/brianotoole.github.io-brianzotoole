@@ -7,7 +7,6 @@ img: project-didjagswin.jpg
 link: http://didjagswin.com
 ---
 
-### Project Overview
 I'm a huge Jacksonville Jaguars fan and it's a tough life for us fans. It's been 8 years since the Jags have had a winning record. Since we never win, I thought it would be funny to spin up one of those joke websites, "Did Your Team Win?", like  [DidDukeWin](https://www.diddukewin.com/){:target="_blank"}. However, instead of needing to update it after each game, I wanted to use an NFL scoring API in real-time, so scoring outcomes are automatically updated, without me needing to edit anything.
 
 ### Objectives
