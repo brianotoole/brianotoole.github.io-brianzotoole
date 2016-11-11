@@ -43,4 +43,4 @@ As for the tools used to build the site - I am using Jekyll as my templating eng
 That's all. Go Jags? Man, I'd love to be able to say that more.
 
 
-![ptirepairs agent image](/assets/project-ptirepairs-agent.png)
+![didjagswin homepage image](/assets/project-didjagswin-home.png)
