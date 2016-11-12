@@ -37,6 +37,12 @@ Now, we can check against the possible scoring outcomes:
 Taking it a step futher, I decided... why not do this for all the current teams that suck (Browns, Bucs, Dolphins). Since I'm using Jekyll as my parsing engine for the site, all it would take is to set global variables in the `_config.yml` file and change those variables to reflect the new team's site information. Then, add a menu toggle so the user can switch between sites. I purchased domains for each team and here's what we have:
 
 ![didjagswin homepage image](/assets/project-didjagswin-home.png)
+
 ![didjagswin homepage image](/assets/project-didjagswin-bucs.png)
+> [View Site](https://didbucsswin.com/){:target="_blank"}
+
 ![didjagswin homepage image](/assets/project-didjagswin-browns.png)
+> [View Site](https://didbrownswin.com/){:target="_blank"}
+
 ![didjagswin homepage image](/assets/project-didjagswin-phins.png)
+> [View Site](https://www.didphinswin.com/){:target="_blank"}
