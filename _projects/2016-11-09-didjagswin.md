@@ -39,10 +39,10 @@ Taking it a step futher, I decided... why not do this for all the current teams 
 ![didjagswin homepage image](/assets/project-didjagswin-home.png)
 
 ![didjagswin homepage image](/assets/project-didjagswin-bucs.png)
-> [View Site](https://didbucsswin.com/){:target="_blank"}
+> [View Site](http://didbucswin.com/){:target="_blank"}
 
 ![didjagswin homepage image](/assets/project-didjagswin-browns.png)
-> [View Site](https://didbrownswin.com/){:target="_blank"}
+> [View Site](http://didbrownswin.com/){:target="_blank"}
 
 ![didjagswin homepage image](/assets/project-didjagswin-phins.png)
-> [View Site](https://www.didphinswin.com/){:target="_blank"}
+> [View Site](http://didphinswin.com/){:target="_blank"}
