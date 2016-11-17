@@ -25,9 +25,9 @@ input,
 optgroup,
 select,
 textarea {
-	color: lighten( $color-black, 18% ); /* 1 */
-	font: inherit; /* 2 */
-	margin: 0; /* 3 */
+	color: lighten( $color-black, 18% );
+	font: inherit;
+	margin: 0;
 	padding: calc-em(5px);
 }
 
@@ -43,7 +43,7 @@ select {
 input,
 textarea,
 select {
-	border: calc-em(1px) solid lighten( $color-gray-dark, 22% );
+	border: calc-em(2px) solid $color-gray;
 	border-radius: calc-em(1px);
 	display: block;
 	line-height: calc-em(30px);
@@ -54,6 +54,7 @@ select {
 	@media (min-width: $bp-medium) {
 		line-height: 1.5625;
 	}
+	
 }
 optgroup {
 	font-weight: bold;
@@ -87,9 +88,9 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border-color: $color-primary;
+	border-color: $color-gray-dark;
 	outline: 0;
-	outline: thin dotted \9;
+	//outline: thin dotted \9;
 	-webkit-appearance: none;
     appearance: none;
 }
@@ -117,8 +118,8 @@ button:-moz-focusring,
 	outline: 1px dotted ButtonText;
 }
 ::-webkit-file-upload-button {
-	-webkit-appearance: button; /* 1 */
-	font: inherit; /* 2 */
+	-webkit-appearance: button; 
+	font: inherit;
 }
 
 .input-inline {
@@ -133,8 +134,8 @@ button:-moz-focusring,
 }
 
 [type="search"] {
-	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+	-webkit-appearance: textfield; 
+	outline-offset: -2px; 
 }
 
 [type="search"]::-webkit-search-cancel-button,
