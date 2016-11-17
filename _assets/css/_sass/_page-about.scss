@@ -7,7 +7,7 @@
 
 .card {
   padding: calc-em(40px) calc-em(20px);
-  border: 2px solid darken($color-accent, 10%);
+  border: 2px solid $color-gray;
   .lnr {
     display: inline-block;
 	font-size: calc-em(80px);
