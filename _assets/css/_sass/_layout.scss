@@ -30,6 +30,32 @@
   }
 }
 
+.grid-flex-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: calc-em(20px);
+  position: relative;
+  margin: auto;
+  @media (min-width: $bp-large) {
+    justify-content: space-between;
+  }
+  > div {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: calc-em(20px);
+    @media (min-width: $bp-medium) {
+	  width: calc(50% - 20px);
+	}
+	@media (min-width: $bp-large) {
+	  width: calc(33% - 10px);
+	}
+  }
+}
+
 .footer {
   flex: none;
   padding: calc-em(35px) 0;
