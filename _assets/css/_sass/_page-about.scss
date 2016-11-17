@@ -6,12 +6,18 @@
 .services {}
 
 .card {
-  padding: calc-em(40px) calc-em(20px);
+  padding: calc-em(30px) calc-em(20px);
   border: 2px solid $border-light;
+  @media (min-width: $bp-medium) {
+    padding: calc-em(40px) calc-em(20px);
+  }
   .lnr {
     display: inline-block;
-	font-size: calc-em(80px);
+	font-size: calc-em(50px);
 	color: $color-primary;
+	@media (min-width: $bp-medium) {
+      font-size: calc-em(80px);
+    }
   }
 }
 

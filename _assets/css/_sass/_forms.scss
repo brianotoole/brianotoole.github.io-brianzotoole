@@ -43,7 +43,7 @@ select {
 input,
 textarea,
 select {
-	border: calc-em(2px) solid #dfd9cb;
+	border: 1px solid $color-gray-dark;
 	border-radius: calc-em(1px);
 	display: block;
 	line-height: calc-em(30px);
