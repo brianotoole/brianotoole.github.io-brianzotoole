@@ -57,7 +57,7 @@
   font-size: calc-em(22px);
   transition: 0.3s all ease-in-out;
   a {
-	color: $color-black;
+	color: $color-white;
 	text-decoration: none;
   }
 }
@@ -68,7 +68,7 @@
 .project-img { 
   &:hover {
 	.after {
-	  background: rgba($color-accent, 0.9);
+	  background: rgba($color-primary, 0.9);
 	}
 	span {
 	  display: block;
