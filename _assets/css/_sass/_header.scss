@@ -11,8 +11,8 @@
     padding: calc-em(60px) 0;
   }
 }
-// when ".page" is added via front matter
-body.page .header { background: $color-primary; }
+// when ".is-bg-solid added via front matter
+body.is-header-solid .header { background: $color-primary; }
 // when ".project" is added via front matter
 body.project .logo a,
 body.project .i-menu a { color: $color-white; }
