@@ -131,15 +131,15 @@
 .menu-list li a {
   display: block;
   width: 100%;
+  padding-bottom: calc-em(20px);
   color: $color-black;
 }
 .menu-list li p {
   color: $color-black;
 }
-.menu-list li a {
-  padding: calc-em(20px) 0;
-  @media (min-width: $bp-medium) {
-    padding: calc-em(25px);
+@media (min-width: 768px) {
+  .menu-list li a {
+    padding: calc-em(20px);
   }
 }
 .menu-list:hover > li {
