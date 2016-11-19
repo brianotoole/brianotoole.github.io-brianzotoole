@@ -2,14 +2,25 @@
 layout: default
 ---
 
-<div class="container">
+<section class="hero text-center" style="background:#{{ page.bgcolor }};">
+  <div class="hero-text" style="color:#{{ page.textcolor }};">
+    <div class="container">
+      <h1 class="hero-title">{{ page.title }}</h1>
+    </div><!--/.container-->
+    <div class="container sm">
+      <p class="hero-tagline">{{ page.tagline }}</p>
+    </div><!--/.container.sm-->
+  </div><!--/.hero-text-->
+</section><!--/.hero-->
+
+<div class="container pad">
   <div class="post-entry">
-    <h1 class="section-title">{{ page.title }}</h1>
+    <h2 class="section-title">Project Details</h2>
     <div class="project-meta">
       <div class="project-url">
-        <blockquote>
+        <blockquote style="border-color:#{{ page.bgcolor }};">
           <span class="lnr lnr-exit-up"></span>
-          <a href="{{ page.link }}" class="h5" target="_blank">View website</a>
+          <a href="{{ page.link }}" class="h5" style="color:#{{ page.bgcolor }};" target="_blank">View website</a>
         </blockquote>
       </div><!--/.project-url-->
     </div><!--/.project-meta-->

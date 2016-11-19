@@ -1,10 +1,14 @@
 ---
+bodyclass: project
 layout: project
 title: People's Trust Insurance
+tagline: Provided strategy for user experience, technology selection, and web development for this website redesign
 date: 2015-04-01
 img: project-pti.jpg
 featured-top: true
 link: https://peoplestrustinsurance.com
+bgcolor: 005cba
+textcolor: ffffff
 ---
 
 People's Trust Insurance leadership wanted to generate more sales leads and build the reputation of its Florida property insurance company. The insurance company engaged our firm to bring to life strategies that would rebrand the company, focus its marketing and communications, and showcase its unique approach to home insurance protection in Florida in a variety of ways.

@@ -12,6 +12,18 @@
     padding: calc-em(60px) 0;
   }
 }
+// when ".project" is added via front matter
+body.project .header { background: transparent; }
+body.project .logo a,
+body.project .i-menu a { color: $color-white; }
+body.project .i-menu a i, 
+body.project .i-menu a i::before,
+body.project .i-menu a i::after { background: $color-white; }
+body.project .i-menu a.active { color: $color-black; }
+body.project .i-menu a.active i { background: transparent; }
+body.project .i-menu a.active i::before,
+body.project .i-menu a.active i::after { background: $color-black; }
+
 
 .logo {
   float: left;

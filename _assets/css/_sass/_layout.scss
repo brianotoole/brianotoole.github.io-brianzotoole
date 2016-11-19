@@ -6,6 +6,9 @@
   -ms-flex: 1 0 auto; //damn you, IE
   position: relative;
   width: 100%;
+  padding: 0;
+}
+.content-wrap-post {
   padding-top: calc-em(150px);
   @media (min-width: $bp-medium) {
     padding-top: calc-em(200px);
