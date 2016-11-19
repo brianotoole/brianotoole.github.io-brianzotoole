@@ -17,9 +17,12 @@
    background-position: 100% center;
   .hero-text {
     position: relative;
-    padding: calc-em(200px) 0 calc-em(190px);
+    padding: calc-em(125px) 0 calc-em(100px);
     color: $color-black;
     z-index: 1;
+    @media (min-width: $bp-medium) {
+      padding: calc-em(200px) 0 calc-em(175px);
+    }  
   }
   .hero-title {
 	margin-bottom: 0;
