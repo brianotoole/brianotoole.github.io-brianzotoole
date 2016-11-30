@@ -1,5 +1,5 @@
 // Content
-// Styles for managing the structural hierarchy of the site.
+// Major layout classes for managing the structural hierarchy of the site.
 
 .content-wrap {
   flex: 1;
@@ -56,21 +56,5 @@
 	@media (min-width: $bp-large) {
 	  width: calc(33% - 10px);
 	}
-  }
-}
-
-.footer {
-  flex: none;
-  padding: calc-em(35px) 0;
-  color: $color-gray;
-  p {
-    display: inline-block;
-    margin: 0;
-  }
-  a {
-    color: $color-gray;
-    &:first-child {
-      padding-right: calc-em(15px);
-    }
   }
 }
