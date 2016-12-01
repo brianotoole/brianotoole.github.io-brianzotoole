@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How I Manage Media Queries in Sass
+title: Element Queries in Sass
 category: web
-img: blogsocial.jpg
+img: #
 icon: lnr-code
-description: Nesting media queries within the selector is much more easier to control for scalable css architecture
+description: Nesting media queries within the selector is much more easier to control for scalable css architecture.
 ---
 In the past, writing css sucked! You needed to repeat yourself over and over, and eventually you ended up with a bloated sheet of repeated rules that was nearly impossible to mantain.
 
@@ -12,7 +12,7 @@ Thankfully, today (and since years ago), [Sass](http://sass-lang.com){:target="_
 
 Among it's many cool features, one of the most useful features of Sass is the ability to nest selectors. This is extremely helpful for managing media queries in responsive design. I've found that nesting media queries within the selector is much more easier to control & scale, than in separate files.
 
-### Nested Media Queries 
+### Nested Media Queries, aka - "Element Queries"
 For example, if I'm writing a component, it might look something like this:
 ~~~~
 .component-name {
@@ -35,7 +35,7 @@ This would compile to the following CSS:
   }
 ~~~~
 
-So, instead of separating media queries into partial files in your directory, I'd recommend adding them inline. It's much, much easier to manage. Especially, when you will be working on a site that evolves rapidly.
+So, instead of separating media queries into partial files in your directory, I'd recommend adding them inline... within the element. We can call those "element queries" instead of media queries. It's much, much easier to manage these within the element instead of separate files. Especially, when you will be working on a site that evolves rapidly.
 
 ### Potential Issues
 Some may think this will create bloat. However, if you are using a build tool, like Grunt, or minifying your assets, there's nothing to worry about. We're talking a few KBs in the grand scheme of things.
