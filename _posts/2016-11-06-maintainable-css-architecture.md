@@ -146,8 +146,8 @@ These guidelines should...
 
 ### Takeaways
 Here are the steps for creating a scalable css system:
-* Choose a framework or boilerplate that is helps with responsive design patterns that work for your project, but doesn't make design decisions for you
-* Organize your file structure into a *table of contents* that makes sense for you, using a preprocessor like Sass.
+* Choose a framework or boilerplate that works for your project, but doesn't make design decisions for you
+* Organize your file structure into a *table of contents*, using a preprocessor like Sass.
 * Define your base font-size using a relative sizing approach
 * Establish and reinforce semantic naming conventions
 * Document your approach into a css codeguide
