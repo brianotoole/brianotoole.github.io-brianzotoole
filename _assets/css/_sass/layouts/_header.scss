@@ -11,7 +11,7 @@
     padding: calc-em(60px) 0;
   }
 }
-// when ".is-bg-solid added via front matter
+// when ".is-bg-solid" is added via front matter
 body.is-header-solid .header { background: $color-primary; }
 // when ".project" is added via front matter
 body.project .logo a,
@@ -29,6 +29,6 @@ body.project .i-menu a.active i::after { background: $color-black; }
   float: left;
   span,
   a {
-	color: $color-black;
+	color: $color-white;
   }
 }

@@ -12,7 +12,7 @@
   width: calc-em(25px);
   height: calc-em(27px);
   cursor: pointer;
-  color: $color-black;
+  color: $color-white;
   letter-spacing: 0.06em;
 }
 .i-menu a span {
@@ -31,7 +31,7 @@
   display: inline-block;
   width: 25px;
   height: 3px;
-  background: $color-black;
+  background: $color-white;
   transition: all 0.2s ease-out;
 }
 
@@ -40,7 +40,7 @@
   content: '';
   width: 25px;
   height: 3px;
-  background: $color-black;
+  background: $color-white;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
@@ -73,7 +73,7 @@
 .menu-wrapper {
   opacity: 0;
   visibility: hidden;
-  background: $color-accent-dark;
+  background: $color-primary-dark;
   z-index: 8000;
   height: 100%;
   width: 100%;
@@ -132,10 +132,10 @@
   display: block;
   width: 100%;
   padding-bottom: calc-em(20px);
-  color: $color-black;
+  color: $color-white;
 }
 .menu-list li p {
-  color: $color-black;
+  color: $color-white;
 }
 @media (min-width: 768px) {
   .menu-list li a {

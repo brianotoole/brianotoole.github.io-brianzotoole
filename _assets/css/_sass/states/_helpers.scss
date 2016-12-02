@@ -57,6 +57,12 @@
   background: $color-gray-light;
 }
 
+.section-title {
+  &.text-white {
+	border-color: $color-white;
+  }
+}
+
 
 /**
  * Text alignment
