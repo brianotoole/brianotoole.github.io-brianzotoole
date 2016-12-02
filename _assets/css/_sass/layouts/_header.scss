@@ -19,16 +19,16 @@ body.project .i-menu a { color: $color-white; }
 body.project .i-menu a i, 
 body.project .i-menu a i::before,
 body.project .i-menu a i::after { background: $color-white; }
-body.project .i-menu a.active { color: $color-black; }
+body.project .i-menu a.active { color: $color-white; }
 body.project .i-menu a.active i { background: transparent; }
 body.project .i-menu a.active i::before,
-body.project .i-menu a.active i::after { background: $color-black; }
+body.project .i-menu a.active i::after { background: $color-white; }
 
 
 .logo {
   float: left;
   span,
   a {
-	color: $color-white;
+	color: $color-black;
   }
 }

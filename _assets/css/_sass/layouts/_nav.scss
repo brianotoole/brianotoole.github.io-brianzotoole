@@ -12,7 +12,7 @@
   width: calc-em(25px);
   height: calc-em(27px);
   cursor: pointer;
-  color: $color-white;
+  color: $color-black;
   letter-spacing: 0.06em;
 }
 .i-menu a span {
@@ -31,7 +31,7 @@
   display: inline-block;
   width: 25px;
   height: 3px;
-  background: $color-white;
+  background: $color-black;
   transition: all 0.2s ease-out;
 }
 
@@ -40,7 +40,7 @@
   content: '';
   width: 25px;
   height: 3px;
-  background: $color-white;
+  background: $color-black;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
