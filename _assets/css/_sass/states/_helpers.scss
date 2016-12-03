@@ -193,6 +193,12 @@
     display: block;
   }
 }
+.visible-xs {
+  display: none;
+  @media (max-width: $bp-small) {
+    display: inline-block;
+  }
+}
 
 // Pads & layouts
 .pad {
