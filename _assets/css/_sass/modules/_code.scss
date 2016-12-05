@@ -16,14 +16,14 @@
 }
 
 code {
-	background-color: $color-gray-light;
+	//background-color: $color-gray-light;
 	color: $color-code;
 	padding: calc-em(4px);
 	word-wrap: break-word;
 }
 
 pre {
-	background-color: $color-gray-light;
+	background-color: #324f64;
 	display: block;
 	line-height: 1.5;
 	margin-bottom: $spacing;
