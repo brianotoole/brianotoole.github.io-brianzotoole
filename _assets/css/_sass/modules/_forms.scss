@@ -43,7 +43,7 @@ select {
 input,
 textarea,
 select {
-	border: 2px solid darken($border-light, 50%);
+	border: 2px solid $color-gray-dark;
 	border-radius: calc-em(1px);
 	display: block;
 	line-height: calc-em(30px);
@@ -88,7 +88,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border-color: $color-gray;
+	border-color: $color-primary;
 	outline: 0;
 	//outline: thin dotted \9;
 	-webkit-appearance: none;

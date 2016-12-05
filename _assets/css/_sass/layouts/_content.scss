@@ -28,7 +28,7 @@
   width: $container-width; // %
   &.sm {
 	@media (min-width: $bp-medium) {
-	  width: 55%;
+	  width: 65%;
 	}
   }
 }
