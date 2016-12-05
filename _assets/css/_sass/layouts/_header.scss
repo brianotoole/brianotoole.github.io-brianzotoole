@@ -5,14 +5,15 @@
   width: 100%;
   margin: 0;
   padding: calc-em(40px) 0;
-  background-color: transparent;
+  background-color: $color-black;
+  border-bottom: 1px solid $border-light;
   z-index: 200;
-  @media (min-width: $bp-medium) {
-    padding: calc-em(60px) 0;
-  }
+  //@media (min-width: $bp-medium) {
+  //  padding: calc-em(40px) 0;
+  //}
 }
 // when ".is-bg-solid" is added via front matter
-body.is-header-solid .header { background: $color-primary; }
+/*body.is-header-solid .header { background: $color-primary; }
 // when ".project" is added via front matter
 body.project .logo a,
 body.project .i-menu a { color: $color-white; }
@@ -24,11 +25,11 @@ body.project .i-menu a.active i { background: transparent; }
 body.project .i-menu a.active i::before,
 body.project .i-menu a.active i::after { background: $color-white; }
 
-
+*/
 .logo {
   float: left;
   span,
   a {
-	color: $color-black;
+	color: $color-white;
   }
 }
