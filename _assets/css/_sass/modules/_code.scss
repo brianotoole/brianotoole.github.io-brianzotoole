@@ -16,14 +16,14 @@
 }
 
 code {
-	background-color: #324f64;
+	background-color: $color-gray-light;
 	color: $color-code;
 	padding: calc-em(4px);
 	word-wrap: break-word;
 }
 
 pre {
-	background-color: #324f64; //should be same as code bg-color
+	background-color: $color-gray-light;
 	display: block;
 	line-height: 1.5;
 	margin-bottom: $spacing;
