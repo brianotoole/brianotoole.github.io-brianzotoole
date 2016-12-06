@@ -77,8 +77,8 @@
 }
 
 .btn-transparent-inverse {
-    background-color: rgba($color-primary, 0.95);
-	border-color: darken( $color-primary, 15% );
+    background-color: transparent;
+	border-color: $color-white;
 
 	&:hover,
 	a &:hover,
@@ -87,8 +87,9 @@
 	&:active,
 	a &:active,
 	&.active {
-		background-color: darken( $color-primary, 15% );
-		border-color: darken( $color-primary, 30% );
+	    color: $color-primary;
+		background-color: $color-white;
+		border-color: darken( $color-white, 30% );
 	}
 }
 

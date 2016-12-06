@@ -9,9 +9,9 @@
   padding: 0;
 }
 .content-wrap-post {
-  padding-top: calc-em(150px);
+  padding-top: calc-em(40px);
   @media (min-width: $bp-medium) {
-    padding-top: calc-em(200px);
+    padding-top: calc-em(65px);
   }
 }
 
