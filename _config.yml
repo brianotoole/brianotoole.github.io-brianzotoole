@@ -58,6 +58,7 @@ assets:
   assets:
     - "*.png"
     - "bundle.css"
+    - "main.js"
 
   #
   sources:
