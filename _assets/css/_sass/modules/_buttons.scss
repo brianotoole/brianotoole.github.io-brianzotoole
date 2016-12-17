@@ -205,3 +205,28 @@ input.btn {
   }
  
 }
+
+
+// Scroll button
+.btn-scroll {
+  position: absolute;
+  width: 100%;
+  bottom: calc-em(100px);
+  a {
+    padding-top: 70px;
+    color: $color-white;
+    font-size: calc-em(20px);
+  }
+  span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: calc-em(24px);
+    height: calc-em(24px);
+    margin-left: -15px;
+    border-left: 1px solid $color-white;
+    border-bottom: 1px solid $color-white;
+    transform: rotate(-45deg);
+    animation: scrollDown 1.5s infinite;
+  }
+}

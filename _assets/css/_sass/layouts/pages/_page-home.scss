@@ -34,13 +34,26 @@
 	margin-bottom: 0;
   }
   .hero-tagline {
-	padding-top: calc-em(30px);
+	padding-top: calc-em(25px);
 	@media (min-width: $bp-medium) {
 	  font-size: calc-em(20px);
     }
   }
-  &.is-full-height {
-	height: 100vh;
+}
+
+// Hero, full-height
+.hero.is-full-height {
+  height: 100vh;
+  .hero-text {
+    position: absolute;
+    width: 100%;
+	top: 50%;
+	left: 50%;
+	padding: 0;
+	text-align: center;
+	color: $color-white;
+    z-index: 2;
+    transform: translate(-50%, -50%);
   }
 }
 
