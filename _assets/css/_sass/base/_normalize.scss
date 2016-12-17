@@ -49,9 +49,10 @@ summary {
  *    user zoom.
  */
 html {
-	font-family: $font-primary; /* 1 */
 	overflow-y: scroll; /* 2 */
 	text-size-adjust: 100%; /* 3 */
+	font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 /**
