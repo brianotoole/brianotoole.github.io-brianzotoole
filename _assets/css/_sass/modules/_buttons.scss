@@ -212,11 +212,15 @@ input.btn {
   position: absolute;
   width: 100%;
   bottom: calc-em(100px);
-   a:hover, span:hover {text-decoration: none;}
+   a:hover, span:hover {
+     text-decoration: none;
+     color: $color-gray-light;
+   }
   a {
     padding: 10px;
-    color: $color-gray-light;
+    color: rgba($color-gray-light, 0.65);
     font-size: calc-em(18px);
+    transition: color 0.3s ease-out;
   }
   span {
     position: absolute;

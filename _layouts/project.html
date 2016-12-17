@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="hero text-center" style="background-color:#{{ page.bgcolor }};">
+<section class="hero is-full-height text-center" style="background-color:#{{ page.bgcolor }};">
   <div class="hero-text" style="color:#{{ page.textcolor }};">
     <div class="container">
       <h1 class="hero-title">{{ page.title }}</h1>
@@ -11,9 +11,12 @@ layout: default
       <p class="hero-tagline">{{ page.tagline }}</p>
     </div><!--/.container.sm-->
   </div><!--/.hero-text-->
+  <div class="btn-scroll">
+    <a href="#details"><span></span>Learn More</a>
+  </div><!--/.btn-scroll-->
 </section><!--/.hero-->
 
-<div class="container pad">
+<div class="container pad" id="details">
   <div class="post-entry">
     <h2 class="section-title">Project Details</h2>
     <div class="project-meta">
