@@ -7,7 +7,7 @@ date: 2015-04-01
 img: project-pti.jpg
 featured-top: true
 link: https://peoplestrustinsurance.com
-bgcolor: 005cba
+bgcolor: 0780e2
 textcolor: ffffff
 ---
 

@@ -1,10 +1,6 @@
 // Base
 // The foundational and global aspects of the site
 
-* {
-  box-sizing: border-box;
-}
-
 html,
 body {
   overflow-x: hidden; //prevent scroll on mobile
@@ -14,7 +10,6 @@ html {
   font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
-  font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   @media (min-width: $large-breakpoint) {
     font-size: $large-font-size;

@@ -51,8 +51,6 @@ summary {
 html {
 	overflow-y: scroll; /* 2 */
 	text-size-adjust: 100%; /* 3 */
-	font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
 }
 
 /**
@@ -60,6 +58,8 @@ html {
  */
 body {
 	margin: 0;
+	font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 /**

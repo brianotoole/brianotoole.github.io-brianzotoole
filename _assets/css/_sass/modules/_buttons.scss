@@ -211,14 +211,14 @@ input.btn {
 .btn-scroll {
   position: absolute;
   width: 100%;
-  bottom: calc-em(100px);
+  bottom: calc-em(150px);
    a:hover, span:hover {
      text-decoration: none;
      color: $color-gray-light;
    }
   a {
     padding: 10px;
-    color: rgba($color-gray-light, 0.65);
+    color: rgba($color-gray-light, 0.7);
     font-size: calc-em(18px);
     transition: color 0.3s ease-out;
   }
@@ -226,9 +226,9 @@ input.btn {
     position: absolute;
     top: 0;
     left: 50%;
-    width: calc-em(22px);
-    height: calc-em(22px);
-    margin-left: -12px;
+    width: calc-em(16px);
+    height: calc-em(16px);
+    margin-left: -9px;
     border-left: 1px solid $color-gray-light;
     border-bottom: 1px solid $color-gray-light;
     transform: rotate(-45deg);
