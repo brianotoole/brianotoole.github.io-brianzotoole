@@ -2,7 +2,7 @@
 bodyclass: project
 layout: project
 title: Mom's Against Cooties
-tagline: Provided strategy and development for a blog redesign
+tagline: Provided strategy and development for a comprehensive digital redesign
 date: 2016-07-16
 img: project-mac.jpg
 featured-bottom: true
@@ -11,7 +11,7 @@ bgcolor: c1718f
 textcolor: ffffff
 ---
 
-The American Chemistry Council engaged us to create a safe space for moms to discuss cleaning and disinfection. This community became well known through social media and eventually.... the website. The website features a regularly updated blog with original articles, free downloadable posters and coloring pages, and ways to advocate for the safe and effective use of disinfection products, including bleach.
+The American Chemistry Council engaged Sachs Media Group to create a safe space for moms to discuss cleaning and disinfection. This community became well known through social media and eventually.... the website. The website features a regularly updated blog with original articles, free downloadable posters and coloring pages, and ways to advocate for the safe and effective use of disinfection products, including bleach.
 
 ### Objectives
 * Create an engaging blog website with ability to manage many category types of content.
