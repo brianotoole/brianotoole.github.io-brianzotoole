@@ -21,7 +21,7 @@ I'm a huge Jacksonville Jaguars fan and it's a tough life for us fans. It's been
 ### Work Involved
 Using the NFL Live API, I was able to get the latest score as a JSON feed, access the scores object and parse each team's scoring information for that particular week.
 
-Since the data-set does not say which team is the winner, I needed to create a method to check whether or not the Jaguars were the Home or Away team and create a decision against possible scoring outcomes. 
+Since the data-set does not say which team is the winner, I needed to create a method to check whether or not the Jaguars were the Home or Away team and create a decision against possible scoring outcomes.
 
 I stored the Home/Away check as a boolean variable - `isHome` and tested it against the `teamName` (in this case, an object result with string value of: "Jaguars").
 
@@ -40,13 +40,13 @@ Now, we can check against the possible scoring outcomes:
 
 Taking it a step futher, I decided... why not do this for all the current teams that suck (Browns, Bucs, Dolphins). Since I'm using Jekyll as my parsing engine for the site, all it would take is to set global variables in the `_config.yml` file and change those variables to reflect the new team's site information. Then, add a menu toggle so the user can switch between sites. I purchased domains for each team and here's what we have:
 
-![didjagswin homepage image](/assets/project-didjagswin-home.png)
+![didjagswin homepage image](/assets/images/project-didjagswin-home.png)
 
-![didjagswin homepage image](/assets/project-didjagswin-bucs.png)
+![didjagswin homepage image](/assets/images/project-didjagswin-bucs.png)
 > [View Site](http://didbucswin.com/){:target="_blank"}
 
-![didjagswin homepage image](/assets/project-didjagswin-browns.png)
+![didjagswin homepage image](/assets/images/project-didjagswin-browns.png)
 > [View Site](http://didbrownswin.com/){:target="_blank"}
 
-![didjagswin homepage image](/assets/project-didjagswin-phins.png)
+![didjagswin homepage image](/assets/images/project-didjagswin-phins.png)
 > [View Site](http://didphinswin.com/){:target="_blank"}

@@ -2,7 +2,7 @@
 bodyclass: project
 layout: project
 title: PTI Repairs
-tagline: Provided website strategy for a campaign and created an Agent Locator tool 
+tagline: Provided website strategy for a campaign and created an Agent Locator tool
 date: 2016-10-20
 description: PTI Repairs* is a website landing page to reinforce a campaign initiative by People's Trust Insurance. The purpose of the campaign is to inform homeowner's about PTI's unique service offering. Most home insurance companies require you, as the policyholder, to figure out how you will repair damage when you file a claim.
 img: project-ptirepairs.jpg
@@ -21,4 +21,4 @@ textcolor: ffffff
 ### Work Involved
 I helped develop the "Find an Agent" tool, which showcased on the landing page and on the main PTI website, while working at Sachs Media Group. By visiting the "Find an Agent" page, your location is automatically detected (with the help of the *HTML5 geolocation API*) and a list of local authorized agencies are displayed. You can also search for agencies by zip code. The *Google Maps API* is used to pinpoint the latitude/ longitude location for each agency address. Clicking "contact" will allow you to send a message direcly to the agency, to initiate direct conversation.
 
-![ptirepairs agent image](/assets/project-ptirepairs-agent.png)
+![ptirepairs agent image](/assets/images/project-ptirepairs-agent.png)

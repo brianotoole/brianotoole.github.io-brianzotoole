@@ -19,9 +19,9 @@ People's Trust Insurance leadership wanted to generate more sales leads and buil
 * Build reputation in Florida
 
 ### Work Involved
-I helped with strategy for user experience, technology selection, and web development for the redesign of the PTI website. The site is fully-responsive and uses a content management system. 
+I helped with strategy for user experience, technology selection, and web development for the redesign of the PTI website. The site is fully-responsive and uses a content management system.
 
-With a goal to make the website stand out amongst a crowded insurance market, we uniquely designed the homepage to showcase actual employees as part of the website's imagery. In the hero section of the homepage, we created an animated, "video-like" fade-show. As you scrolled down the website's homepage, an eye-catching filling effect grabbed user attention to help showcase PTI's core values and features. 
+With a goal to make the website stand out amongst a crowded insurance market, we uniquely designed the homepage to showcase actual employees as part of the website's imagery. In the hero section of the homepage, we created an animated, "video-like" fade-show. As you scrolled down the website's homepage, an eye-catching filling effect grabbed user attention to help showcase PTI's core values and features.
 
 Throughout the website, policyholder reviews and testimonials were added to reinforce the company's focus on providing for it's policyholders and People Trust's unique service-offering. Tesimonials were archived on a "Reviews" page, which again was feature-packed and created a modern viewing experience with the ability to filter through items based on the media type.
 
@@ -31,12 +31,10 @@ To help generate more sales leads, subtle calls-to-action, like "Get a Quote" bu
 
 
 ### Takeaway
-As the company messaging contines to evolve, so does it's website. To keep up with this dynamic market, different modules and themes are often developed. Things like, video headers, video galleries, search tools, and new page designs help reinforce branding and help meet internal marketing objectives. 
+As the company messaging contines to evolve, so does it's website. To keep up with this dynamic market, different modules and themes are often developed. Things like, video headers, video galleries, search tools, and new page designs help reinforce branding and help meet internal marketing objectives.
 
 People's Trust has recognized their website as their top sales tool and since their redesign, has become one of Florida's top 10 home insurance companies.
 
-![pti homepage image](/assets/project-pti-home.png)
-![pti about image](/assets/project-pti-about.png)
-![pti blog image](/assets/project-pti-blog.png)
-
- 
+![pti homepage image](/assets/images/project-pti-home.png)
+![pti about image](/assets/images/project-pti-about.png)
+![pti blog image](/assets/images/project-pti-blog.png)

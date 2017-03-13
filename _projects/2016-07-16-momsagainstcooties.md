@@ -19,9 +19,9 @@ The American Chemistry Council engaged Sachs Media Group to create a safe space 
 * Generate an increase in traffic and awareness of cleaning and disinfection products
 
 ### Work Involved
-I helped with strategy for user experience, technology selection, and web development for the redesign of the Mom's Against Cooties website. The site was built mobile-first and uses a content management system. 
+I helped with strategy for user experience, technology selection, and web development for the redesign of the Mom's Against Cooties website. The site was built mobile-first and uses a content management system.
 
 ### Takeaway
 *Mommy-bloggers* are very engaging! There are more than 15,000+ visits per month and most of the traffic is via social media, due to the high amount of shares / conversation.
 
-![mac single-article image](/assets/project-mac-article.png)
+![mac single-article image](/assets/images/project-mac-article.png)

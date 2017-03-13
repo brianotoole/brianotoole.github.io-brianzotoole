@@ -12,4 +12,4 @@ textcolor: ffffff
 
 I helped build the Sachs Media Group company website showcasing a bold, breakthrough approach to communications.
 
-![smg home image](/assets/project-smg-home.png)
+![smg home image](/assets/images/project-smg-home.png)
