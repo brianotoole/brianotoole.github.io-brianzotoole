@@ -19,5 +19,16 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncatewords: 200 | escape }}{% else %}{{ page.content | strip_html | truncatewords: 160 | escape }}{% endif %}" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" type="text/css">
+  {% if page.path contains '_posts' %}
+  <script type="application/ld+json">
+  {% include metadata.json %}
+  </script>
+  {% else %}
+  {% endif %}
+  <style>
+    {% capture include_to_scssify %}
+      {% include inline.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
 </head>
