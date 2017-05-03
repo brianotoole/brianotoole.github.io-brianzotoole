@@ -15,9 +15,16 @@ description: Brian O'Toole is a director of web development living in Tampa, Flo
     </div><!--/.container.sm-->
   </div><!--/.hero-text-->
   <div class="btn-scroll">
-    <a href="#projects"><span></span>Learn More</a>
+    <a href="#whatido"><span></span>Learn More</a>
   </div><!--/.btn-scroll-->
 </section><!--/.hero-->
+
+<section class="recent-posts pad bg-gray" id="whatido">
+  <div class="container">
+  <h2 class="section-title">How I Help</h2>
+  {% include services.html %}
+  </div><!--/.container-->
+</section><!--/.recent-posts-->
 
 <section class="recent-projects pad bg-white" id="projects">
   <div class="container">
@@ -70,17 +77,10 @@ description: Brian O'Toole is a director of web development living in Tampa, Flo
   </div><!--/.container-->
 </section><!--/.intro-->
 
-<section class="recent-posts pad bg-gray">
+<section class="recent-posts pad bg-white">
   <div class="container">
   <h2 class="section-title">Latest News</h2>
   {% include posts-list-limit.html %}
-  </div><!--/.container-->
-</section><!--/.recent-posts-->
-
-<section class="recent-posts pad bg-white">
-  <div class="container">
-  <h2 class="section-title">What I Do Best</h2>
-  {% include services.html %}
   </div><!--/.container-->
 </section><!--/.recent-posts-->
 
