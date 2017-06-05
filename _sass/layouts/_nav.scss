@@ -104,6 +104,7 @@
   transform: translateY(-50%);
   list-style: none;
   text-align: center;
+  background: $color-primary;
   @media (min-width: $bp-medium) {
       background-image: url('../assets/images/bg-nav.jpg');
       background-position: center center;
