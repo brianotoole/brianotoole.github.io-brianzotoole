@@ -5,8 +5,7 @@
   width: 100%;
   margin: 0;
   padding: calc-em(30px) 0 calc-em(25px);
-  background-color: $color-black;
-  border-bottom: 1px solid $border-light;
+  background-color: rgba($color-black, 0.025%);
   z-index: 200;
   transition: background 0.3s ease-out;
   &:hover {
@@ -18,7 +17,7 @@
 // when ".project" is added via front matter
 body.project .logo a,
 body.project .i-menu a { color: $color-white; }
-body.project .i-menu a i, 
+body.project .i-menu a i,
 body.project .i-menu a i::before,
 body.project .i-menu a i::after { background: $color-white; }
 body.project .i-menu a.active { color: $color-white; }
