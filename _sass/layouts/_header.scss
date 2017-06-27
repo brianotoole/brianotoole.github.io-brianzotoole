@@ -9,7 +9,7 @@
   z-index: 200;
   transition: background 0.3s ease-out;
   &:hover {
-	background-color: rgba($color-primary, 0.9);
+	  background-color: rgba(black, 0.25);
   }
 }
 // when ".is-bg-solid" is added via front matter
