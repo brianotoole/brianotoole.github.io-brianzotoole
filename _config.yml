@@ -33,6 +33,7 @@ collections:
 # Gems
 gems:
   - jekyll-paginate
+  - octopress-autoprefixer
  # - jekyll-assets
  # - autoprefixer-rails
  # - jekyll-gist
