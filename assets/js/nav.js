@@ -18,5 +18,6 @@ $(document).ready(function() {
   }
   $(trigger).click(function() {
     $('.menu-wrapper').toggleClass('open');
+    $('body').toggleClass('menu-is-open');
   });
 });
