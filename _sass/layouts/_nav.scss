@@ -159,7 +159,7 @@ body.menu-is-open { //prevents horizontal scrolling of menu toggle
 }
 @media (min-width: 768px) {
   .menu-list li a {
-    padding: calc-em(20px);
+    padding: calc-em(20px) 0;
   }
 }
 .menu-list:hover > li {
