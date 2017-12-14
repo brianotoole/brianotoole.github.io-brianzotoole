@@ -10,8 +10,9 @@
   }
   a {
     color: $color-gray;
-    &:first-child {
-      padding-right: calc-em(15px);
+    margin-right: calc-em(20px);
+    @media (max-widdth: $bp-medium) {
+      padding-left: 10px;
     }
   }
 }
